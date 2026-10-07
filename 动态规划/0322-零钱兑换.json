@@ -1,0 +1,146 @@
+{
+  "questionId": "322",
+  "questionFrontendId": "322",
+  "title": "Coin Change",
+  "translatedTitle": "零钱兑换",
+  "titleSlug": "coin-change",
+  "difficulty": "Medium",
+  "categoryTitle": "Algorithms",
+  "content": "<p>You are given an integer array <code>coins</code> representing coins of different denominations and an integer <code>amount</code> representing a total amount of money.</p>\n\n<p>Return the <strong>fewest</strong> number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return -1.</p>\n\n<p>You may assume that you have an infinite number of each kind of coin.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> coins = [1,2,5], amount = 11\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> 11 = 5 + 5 + 1\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> coins = [2], amount = 3\n<strong>Output:</strong> -1\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> coins = [1], amount = 0\n<strong>Output:</strong> 0\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= coins.length &lt;= 12</code></li>\n\t<li><code>1 &lt;= coins[i] &lt;= 2<sup>31</sup> - 1</code></li>\n\t<li><code>0 &lt;= amount &lt;= 10<sup>4</sup></code></li>\n</ul>\n",
+  "translatedContent": "<p>给你一个整数数组 <code>coins</code> ，表示不同面额的硬币；以及一个整数 <code>amount</code> ，表示总金额。</p>\n\n<p>计算并返回可以凑成总金额所需的 <strong>最少的硬币个数</strong> 。如果没有任何一种硬币组合能组成总金额，返回&nbsp;<code>-1</code> 。</p>\n\n<p>你可以认为每种硬币的数量是无限的。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例&nbsp;1：</strong></p>\n\n<pre>\n<strong>输入：</strong>coins = <code>[1, 2, 5]</code>, amount = <code>11</code>\n<strong>输出：</strong><code>3</code> \n<strong>解释：</strong>11 = 5 + 5 + 1</pre>\n\n<p><strong>示例 2：</strong></p>\n\n<pre>\n<strong>输入：</strong>coins = <code>[2]</code>, amount = <code>3</code>\n<strong>输出：</strong>-1</pre>\n\n<p><strong>示例 3：</strong></p>\n\n<pre>\n<strong>输入：</strong>coins = [1], amount = 0\n<strong>输出：</strong>0\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= coins.length &lt;= 12</code></li>\n\t<li><code>1 &lt;= coins[i] &lt;= 2<sup>31</sup> - 1</code></li>\n\t<li><code>0 &lt;= amount &lt;= 10<sup>4</sup></code></li>\n</ul>\n",
+  "topicTags": [
+    {
+      "name": "Breadth-First Search",
+      "slug": "breadth-first-search",
+      "translatedName": "广度优先搜索"
+    },
+    {
+      "name": "Array",
+      "slug": "array",
+      "translatedName": "数组"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming",
+      "translatedName": "动态规划"
+    },
+    {
+      "name": "背包问题",
+      "slug": "knapsack-problem",
+      "translatedName": null
+    },
+    {
+      "name": "完全背包",
+      "slug": "complete-knapsack",
+      "translatedName": null
+    }
+  ],
+  "exampleTestcases": "[1,2,5]\n11\n[2]\n3\n[1]\n0",
+  "sampleTestCase": "[1,2,5]\n11",
+  "codeSnippets": [
+    {
+      "code": "class Solution {\npublic:\n    int coinChange(vector<int>& coins, int amount) {\n        \n    }\n};",
+      "lang": "C++",
+      "langSlug": "cpp"
+    },
+    {
+      "code": "class Solution {\n    public int coinChange(int[] coins, int amount) {\n        \n    }\n}",
+      "lang": "Java",
+      "langSlug": "java"
+    },
+    {
+      "code": "class Solution:\n    def coinChange(self, coins: list[int], amount: int) -> int:\n        ",
+      "lang": "Python3",
+      "langSlug": "python3"
+    },
+    {
+      "code": "class Solution(object):\n    def coinChange(self, coins, amount):\n        \"\"\"\n        :type coins: List[int]\n        :type amount: int\n        :rtype: int\n        \"\"\"\n        ",
+      "lang": "Python",
+      "langSlug": "python"
+    },
+    {
+      "code": "/**\n * @param {number[]} coins\n * @param {number} amount\n * @return {number}\n */\nvar coinChange = function(coins, amount) {\n    \n};",
+      "lang": "JavaScript",
+      "langSlug": "javascript"
+    },
+    {
+      "code": "function coinChange(coins: number[], amount: number): number {\n    \n};",
+      "lang": "TypeScript",
+      "langSlug": "typescript"
+    },
+    {
+      "code": "public class Solution {\n    public int CoinChange(int[] coins, int amount) {\n        \n    }\n}",
+      "lang": "C#",
+      "langSlug": "csharp"
+    },
+    {
+      "code": "int coinChange(int* coins, int coinsSize, int amount) {\n    \n}",
+      "lang": "C",
+      "langSlug": "c"
+    },
+    {
+      "code": "func coinChange(coins []int, amount int) int {\n    \n}",
+      "lang": "Go",
+      "langSlug": "golang"
+    },
+    {
+      "code": "class Solution {\n    fun coinChange(coins: IntArray, amount: Int): Int {\n        \n    }\n}",
+      "lang": "Kotlin",
+      "langSlug": "kotlin"
+    },
+    {
+      "code": "class Solution {\n    func coinChange(_ coins: [Int], _ amount: Int) -> Int {\n        \n    }\n}",
+      "lang": "Swift",
+      "langSlug": "swift"
+    },
+    {
+      "code": "impl Solution {\n    pub fn coin_change(coins: Vec<i32>, amount: i32) -> i32 {\n        \n    }\n}",
+      "lang": "Rust",
+      "langSlug": "rust"
+    },
+    {
+      "code": "# @param {Integer[]} coins\n# @param {Integer} amount\n# @return {Integer}\ndef coin_change(coins, amount)\n    \nend",
+      "lang": "Ruby",
+      "langSlug": "ruby"
+    },
+    {
+      "code": "class Solution {\n\n    /**\n     * @param Integer[] $coins\n     * @param Integer $amount\n     * @return Integer\n     */\n    function coinChange($coins, $amount) {\n        \n    }\n}",
+      "lang": "PHP",
+      "langSlug": "php"
+    },
+    {
+      "code": "class Solution {\n  int coinChange(List<int> coins, int amount) {\n    \n  }\n}",
+      "lang": "Dart",
+      "langSlug": "dart"
+    },
+    {
+      "code": "object Solution {\n    def coinChange(coins: Array[Int], amount: Int): Int = {\n        \n    }\n}",
+      "lang": "Scala",
+      "langSlug": "scala"
+    },
+    {
+      "code": "defmodule Solution do\n  @spec coin_change(coins :: [integer], amount :: integer) :: integer\n  def coin_change(coins, amount) do\n    \n  end\nend",
+      "lang": "Elixir",
+      "langSlug": "elixir"
+    },
+    {
+      "code": "-spec coin_change(Coins :: [integer()], Amount :: integer()) -> integer().\ncoin_change(Coins, Amount) ->\n  .",
+      "lang": "Erlang",
+      "langSlug": "erlang"
+    },
+    {
+      "code": "(define/contract (coin-change coins amount)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )",
+      "lang": "Racket",
+      "langSlug": "racket"
+    },
+    {
+      "code": "class Solution {\n    func coinChange(coins: Array<Int64>, amount: Int64): Int64 {\n\n    }\n}",
+      "lang": "Cangjie",
+      "langSlug": "cangjie"
+    }
+  ],
+  "similarQuestions": "[{\"title\": \"Minimum Cost For Tickets\", \"titleSlug\": \"minimum-cost-for-tickets\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u6700\\u4f4e\\u7968\\u4ef7\", \"isPaidOnly\": false}, {\"title\": \"Maximum Value of K Coins From Piles\", \"titleSlug\": \"maximum-value-of-k-coins-from-piles\", \"difficulty\": \"Hard\", \"translatedTitle\": \"\\u4ece\\u6808\\u4e2d\\u53d6\\u51fa K \\u4e2a\\u786c\\u5e01\\u7684\\u6700\\u5927\\u9762\\u503c\\u548c\", \"isPaidOnly\": false}, {\"title\": \"Minimum Number of Operations to Convert Time\", \"titleSlug\": \"minimum-number-of-operations-to-convert-time\", \"difficulty\": \"Easy\", \"translatedTitle\": \"\\u8f6c\\u5316\\u65f6\\u95f4\\u9700\\u8981\\u7684\\u6700\\u5c11\\u64cd\\u4f5c\\u6570\", \"isPaidOnly\": false}, {\"title\": \"Minimum Cost to Split an Array\", \"titleSlug\": \"minimum-cost-to-split-an-array\", \"difficulty\": \"Hard\", \"translatedTitle\": \"\\u62c6\\u5206\\u6570\\u7ec4\\u7684\\u6700\\u5c0f\\u4ee3\\u4ef7\", \"isPaidOnly\": false}, {\"title\": \"Count of Sub-Multisets With Bounded Sum\", \"titleSlug\": \"count-of-sub-multisets-with-bounded-sum\", \"difficulty\": \"Hard\", \"translatedTitle\": \"\\u548c\\u5e26\\u9650\\u5236\\u7684\\u5b50\\u591a\\u91cd\\u96c6\\u5408\\u7684\\u6570\\u76ee\", \"isPaidOnly\": false}, {\"title\": \"Length of the Longest Subsequence That Sums to Target\", \"titleSlug\": \"length-of-the-longest-subsequence-that-sums-to-target\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u548c\\u4e3a\\u76ee\\u6807\\u503c\\u7684\\u6700\\u957f\\u5b50\\u5e8f\\u5217\\u7684\\u957f\\u5ea6\", \"isPaidOnly\": false}, {\"title\": \"Minimum Number of Coins to be Added\", \"titleSlug\": \"minimum-number-of-coins-to-be-added\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u9700\\u8981\\u6dfb\\u52a0\\u7684\\u786c\\u5e01\\u7684\\u6700\\u5c0f\\u6570\\u91cf\", \"isPaidOnly\": false}, {\"title\": \"Most Expensive Item That Can Not Be Bought\", \"titleSlug\": \"most-expensive-item-that-can-not-be-bought\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u6700\\u8d35\\u7684\\u65e0\\u6cd5\\u8d2d\\u4e70\\u7684\\u5546\\u54c1\", \"isPaidOnly\": true}, {\"title\": \"Inverse Coin Change\", \"titleSlug\": \"inverse-coin-change\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u786c\\u5e01\\u9762\\u503c\\u8fd8\\u539f\", \"isPaidOnly\": false}, {\"title\": \"Minimum Days to Score Exactly N Points\", \"titleSlug\": \"minimum-days-to-score-exactly-n-points\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u5f97\\u5230\\u6070\\u597d N \\u5206\\u7684\\u6700\\u5c11\\u5929\\u6570\", \"isPaidOnly\": false}]",
+  "stats": "{\"totalAccepted\": \"1.5M\", \"totalSubmission\": \"2.8M\", \"totalAcceptedRaw\": 1496824, \"totalSubmissionRaw\": 2796184, \"acRate\": \"53.5%\"}",
+  "planGroup": "动态规划",
+  "planSlug": "top-100-liked-94-c8ic"
+}

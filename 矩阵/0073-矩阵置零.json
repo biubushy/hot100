@@ -1,0 +1,121 @@
+{
+  "questionId": "73",
+  "questionFrontendId": "73",
+  "title": "Set Matrix Zeroes",
+  "translatedTitle": "矩阵置零",
+  "titleSlug": "set-matrix-zeroes",
+  "difficulty": "Medium",
+  "categoryTitle": "Algorithms",
+  "content": "<p>Given an <code>m x n</code> integer matrix <code>matrix</code>, if an element is <code>0</code>, set its entire row and column to <code>0</code>&#39;s.</p>\n\n<p>You must do it <a href=\"https://en.wikipedia.org/wiki/In-place_algorithm\" target=\"_blank\">in place</a>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2020/08/17/mat1.jpg\" style=\"width: 450px; height: 169px;\" />\n<pre>\n<strong>Input:</strong> matrix = [[1,1,1],[1,0,1],[1,1,1]]\n<strong>Output:</strong> [[1,0,1],[0,0,0],[1,0,1]]\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2020/08/17/mat2.jpg\" style=\"width: 450px; height: 137px;\" />\n<pre>\n<strong>Input:</strong> matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]\n<strong>Output:</strong> [[0,0,0,0],[0,4,5,0],[0,3,1,0]]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>m == matrix.length</code></li>\n\t<li><code>n == matrix[0].length</code></li>\n\t<li><code>1 &lt;= m, n &lt;= 200</code></li>\n\t<li><code>-2<sup>31</sup> &lt;= matrix[i][j] &lt;= 2<sup>31</sup> - 1</code></li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong>Follow up:</strong></p>\n\n<ul>\n\t<li>A straightforward solution using <code>O(mn)</code> space is probably a bad idea.</li>\n\t<li>A simple improvement uses <code>O(m + n)</code> space, but still not the best solution.</li>\n\t<li>Could you devise a constant space solution?</li>\n</ul>\n",
+  "translatedContent": "<p>给定一个&nbsp;<code><em>m</em> x <em>n</em></code> 的矩阵，如果一个元素为 <strong>0 </strong>，则将其所在行和列的所有元素都设为 <strong>0</strong> 。请使用 <strong><a href=\"http://baike.baidu.com/item/%E5%8E%9F%E5%9C%B0%E7%AE%97%E6%B3%95\" target=\"_blank\">原地</a></strong> 算法<strong>。</strong></p>\n\n<ul>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2020/08/17/mat1.jpg\" style=\"width: 450px; height: 169px;\" />\n<pre>\n<strong>输入：</strong>matrix = [[1,1,1],[1,0,1],[1,1,1]]\n<strong>输出：</strong>[[1,0,1],[0,0,0],[1,0,1]]\n</pre>\n\n<p><strong>示例 2：</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2020/08/17/mat2.jpg\" style=\"width: 450px; height: 137px;\" />\n<pre>\n<strong>输入：</strong>matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]\n<strong>输出：</strong>[[0,0,0,0],[0,4,5,0],[0,3,1,0]]\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>m == matrix.length</code></li>\n\t<li><code>n == matrix[0].length</code></li>\n\t<li><code>1 &lt;= m, n &lt;= 200</code></li>\n\t<li><code>-2<sup>31</sup> &lt;= matrix[i][j] &lt;= 2<sup>31</sup> - 1</code></li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><strong>进阶：</strong></p>\n\n<ul>\n\t<li>一个直观的解决方案是使用 &nbsp;<code>O(<em>m</em><em>n</em>)</code>&nbsp;的额外空间，但这并不是一个好的解决方案。</li>\n\t<li>一个简单的改进方案是使用 <code>O(<em>m</em>&nbsp;+&nbsp;<em>n</em>)</code> 的额外空间，但这仍然不是最好的解决方案。</li>\n\t<li>你能想出一个仅使用常量空间的解决方案吗？</li>\n</ul>\n",
+  "topicTags": [
+    {
+      "name": "Array",
+      "slug": "array",
+      "translatedName": "数组"
+    },
+    {
+      "name": "Hash Table",
+      "slug": "hash-table",
+      "translatedName": "哈希表"
+    },
+    {
+      "name": "Matrix",
+      "slug": "matrix",
+      "translatedName": "矩阵"
+    }
+  ],
+  "exampleTestcases": "[[1,1,1],[1,0,1],[1,1,1]]\n[[0,1,2,0],[3,4,5,2],[1,3,1,5]]",
+  "sampleTestCase": "[[1,1,1],[1,0,1],[1,1,1]]",
+  "codeSnippets": [
+    {
+      "code": "class Solution {\npublic:\n    void setZeroes(vector<vector<int>>& matrix) {\n        \n    }\n};",
+      "lang": "C++",
+      "langSlug": "cpp"
+    },
+    {
+      "code": "class Solution {\n    public void setZeroes(int[][] matrix) {\n        \n    }\n}",
+      "lang": "Java",
+      "langSlug": "java"
+    },
+    {
+      "code": "class Solution:\n    def setZeroes(self, matrix: list[list[int]]) -> None:\n        \"\"\"\n        Do not return anything, modify matrix in-place instead.\n        \"\"\"\n        ",
+      "lang": "Python3",
+      "langSlug": "python3"
+    },
+    {
+      "code": "class Solution(object):\n    def setZeroes(self, matrix):\n        \"\"\"\n        :type matrix: List[List[int]]\n        :rtype: None Do not return anything, modify matrix in-place instead.\n        \"\"\"\n        ",
+      "lang": "Python",
+      "langSlug": "python"
+    },
+    {
+      "code": "/**\n * @param {number[][]} matrix\n * @return {void} Do not return anything, modify matrix in-place instead.\n */\nvar setZeroes = function(matrix) {\n    \n};",
+      "lang": "JavaScript",
+      "langSlug": "javascript"
+    },
+    {
+      "code": "/**\n Do not return anything, modify matrix in-place instead.\n */\nfunction setZeroes(matrix: number[][]): void {\n    \n};",
+      "lang": "TypeScript",
+      "langSlug": "typescript"
+    },
+    {
+      "code": "public class Solution {\n    public void SetZeroes(int[][] matrix) {\n        \n    }\n}",
+      "lang": "C#",
+      "langSlug": "csharp"
+    },
+    {
+      "code": "void setZeroes(int** matrix, int matrixSize, int* matrixColSize) {\n    \n}",
+      "lang": "C",
+      "langSlug": "c"
+    },
+    {
+      "code": "func setZeroes(matrix [][]int)  {\n    \n}",
+      "lang": "Go",
+      "langSlug": "golang"
+    },
+    {
+      "code": "class Solution {\n    fun setZeroes(matrix: Array<IntArray>): Unit {\n        \n    }\n}",
+      "lang": "Kotlin",
+      "langSlug": "kotlin"
+    },
+    {
+      "code": "class Solution {\n    func setZeroes(_ matrix: inout [[Int]]) {\n        \n    }\n}",
+      "lang": "Swift",
+      "langSlug": "swift"
+    },
+    {
+      "code": "impl Solution {\n    pub fn set_zeroes(matrix: &mut Vec<Vec<i32>>) {\n        \n    }\n}",
+      "lang": "Rust",
+      "langSlug": "rust"
+    },
+    {
+      "code": "# @param {Integer[][]} matrix\n# @return {Void} Do not return anything, modify matrix in-place instead.\ndef set_zeroes(matrix)\n    \nend",
+      "lang": "Ruby",
+      "langSlug": "ruby"
+    },
+    {
+      "code": "class Solution {\n\n    /**\n     * @param Integer[][] $matrix\n     * @return NULL\n     */\n    function setZeroes(&$matrix) {\n        \n    }\n}",
+      "lang": "PHP",
+      "langSlug": "php"
+    },
+    {
+      "code": "class Solution {\n  void setZeroes(List<List<int>> matrix) {\n    \n  }\n}",
+      "lang": "Dart",
+      "langSlug": "dart"
+    },
+    {
+      "code": "object Solution {\n    def setZeroes(matrix: Array[Array[Int]]): Unit = {\n        \n    }\n}",
+      "lang": "Scala",
+      "langSlug": "scala"
+    },
+    {
+      "code": "class Solution {\n    func setZeroes(matrix: Array<Array<Int64>>): Unit {\n\n    }\n}",
+      "lang": "Cangjie",
+      "langSlug": "cangjie"
+    }
+  ],
+  "similarQuestions": "[{\"title\": \"Game of Life\", \"titleSlug\": \"game-of-life\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u751f\\u547d\\u6e38\\u620f\", \"isPaidOnly\": false}, {\"title\": \"Number of Laser Beams in a Bank\", \"titleSlug\": \"number-of-laser-beams-in-a-bank\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u94f6\\u884c\\u4e2d\\u7684\\u6fc0\\u5149\\u675f\\u6570\\u91cf\", \"isPaidOnly\": false}, {\"title\": \"Minimum Operations to Remove Adjacent Ones in Matrix\", \"titleSlug\": \"minimum-operations-to-remove-adjacent-ones-in-matrix\", \"difficulty\": \"Hard\", \"translatedTitle\": \"\\u4f7f\\u77e9\\u9635\\u4e2d\\u7684 1 \\u4e92\\u4e0d\\u76f8\\u90bb\\u7684\\u6700\\u5c0f\\u64cd\\u4f5c\\u6570\", \"isPaidOnly\": true}, {\"title\": \"Remove All Ones With Row and Column Flips II\", \"titleSlug\": \"remove-all-ones-with-row-and-column-flips-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u901a\\u8fc7\\u7ffb\\u8f6c\\u884c\\u6216\\u5217\\u6765\\u53bb\\u9664\\u6240\\u6709\\u7684 1 II\", \"isPaidOnly\": true}]",
+  "stats": "{\"totalAccepted\": \"888.8K\", \"totalSubmission\": \"1.2M\", \"totalAcceptedRaw\": 888754, \"totalSubmissionRaw\": 1249270, \"acRate\": \"71.1%\"}",
+  "planGroup": "矩阵",
+  "planSlug": "top-100-liked-85-8wlm"
+}

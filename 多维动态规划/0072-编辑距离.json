@@ -1,0 +1,131 @@
+{
+  "questionId": "72",
+  "questionFrontendId": "72",
+  "title": "Edit Distance",
+  "translatedTitle": "编辑距离",
+  "titleSlug": "edit-distance",
+  "difficulty": "Medium",
+  "categoryTitle": "Algorithms",
+  "content": "<p>Given two strings <code>word1</code> and <code>word2</code>, return <em>the minimum number of operations required to convert <code>word1</code> to <code>word2</code></em>.</p>\n\n<p>You have the following three operations permitted on a word:</p>\n\n<ul>\n\t<li>Insert a character</li>\n\t<li>Delete a character</li>\n\t<li>Replace a character</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> word1 = &quot;horse&quot;, word2 = &quot;ros&quot;\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> \nhorse -&gt; rorse (replace &#39;h&#39; with &#39;r&#39;)\nrorse -&gt; rose (remove &#39;r&#39;)\nrose -&gt; ros (remove &#39;e&#39;)\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> word1 = &quot;intention&quot;, word2 = &quot;execution&quot;\n<strong>Output:</strong> 5\n<strong>Explanation:</strong> \nintention -&gt; inention (remove &#39;t&#39;)\ninention -&gt; enention (replace &#39;i&#39; with &#39;e&#39;)\nenention -&gt; exention (replace &#39;n&#39; with &#39;x&#39;)\nexention -&gt; exection (replace &#39;n&#39; with &#39;c&#39;)\nexection -&gt; execution (insert &#39;u&#39;)\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= word1.length, word2.length &lt;= 500</code></li>\n\t<li><code>word1</code> and <code>word2</code> consist of lowercase English letters.</li>\n</ul>\n",
+  "translatedContent": "<p>给你两个单词&nbsp;<code>word1</code> 和&nbsp;<code>word2</code>， <em>请返回将&nbsp;<code>word1</code>&nbsp;转换成&nbsp;<code>word2</code> 所使用的最少操作数</em> &nbsp;。</p>\n\n<p>你可以对一个单词进行如下三种操作：</p>\n\n<ul>\n\t<li>插入一个字符</li>\n\t<li>删除一个字符</li>\n\t<li>替换一个字符</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><strong>示例&nbsp;1：</strong></p>\n\n<pre>\n<strong>输入：</strong>word1 = \"horse\", word2 = \"ros\"\n<strong>输出：</strong>3\n<strong>解释：</strong>\nhorse -&gt; rorse (将 'h' 替换为 'r')\nrorse -&gt; rose (删除 'r')\nrose -&gt; ros (删除 'e')\n</pre>\n\n<p><strong>示例&nbsp;2：</strong></p>\n\n<pre>\n<strong>输入：</strong>word1 = \"intention\", word2 = \"execution\"\n<strong>输出：</strong>5\n<strong>解释：</strong>\nintention -&gt; inention (删除 't')\ninention -&gt; enention (将 'i' 替换为 'e')\nenention -&gt; exention (将 'n' 替换为 'x')\nexention -&gt; exection (将 'n' 替换为 'c')\nexection -&gt; execution (插入 'u')\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= word1.length, word2.length &lt;= 500</code></li>\n\t<li><code>word1</code> 和 <code>word2</code> 由小写英文字母组成</li>\n</ul>\n",
+  "topicTags": [
+    {
+      "name": "String",
+      "slug": "string",
+      "translatedName": "字符串"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming",
+      "translatedName": "动态规划"
+    }
+  ],
+  "exampleTestcases": "\"horse\"\n\"ros\"\n\"intention\"\n\"execution\"",
+  "sampleTestCase": "\"horse\"\n\"ros\"",
+  "codeSnippets": [
+    {
+      "code": "class Solution {\npublic:\n    int minDistance(string word1, string word2) {\n        \n    }\n};",
+      "lang": "C++",
+      "langSlug": "cpp"
+    },
+    {
+      "code": "class Solution {\n    public int minDistance(String word1, String word2) {\n        \n    }\n}",
+      "lang": "Java",
+      "langSlug": "java"
+    },
+    {
+      "code": "class Solution:\n    def minDistance(self, word1: str, word2: str) -> int:\n        ",
+      "lang": "Python3",
+      "langSlug": "python3"
+    },
+    {
+      "code": "class Solution(object):\n    def minDistance(self, word1, word2):\n        \"\"\"\n        :type word1: str\n        :type word2: str\n        :rtype: int\n        \"\"\"\n        ",
+      "lang": "Python",
+      "langSlug": "python"
+    },
+    {
+      "code": "/**\n * @param {string} word1\n * @param {string} word2\n * @return {number}\n */\nvar minDistance = function(word1, word2) {\n    \n};",
+      "lang": "JavaScript",
+      "langSlug": "javascript"
+    },
+    {
+      "code": "function minDistance(word1: string, word2: string): number {\n    \n};",
+      "lang": "TypeScript",
+      "langSlug": "typescript"
+    },
+    {
+      "code": "public class Solution {\n    public int MinDistance(string word1, string word2) {\n        \n    }\n}",
+      "lang": "C#",
+      "langSlug": "csharp"
+    },
+    {
+      "code": "int minDistance(char* word1, char* word2) {\n    \n}",
+      "lang": "C",
+      "langSlug": "c"
+    },
+    {
+      "code": "func minDistance(word1 string, word2 string) int {\n    \n}",
+      "lang": "Go",
+      "langSlug": "golang"
+    },
+    {
+      "code": "class Solution {\n    fun minDistance(word1: String, word2: String): Int {\n        \n    }\n}",
+      "lang": "Kotlin",
+      "langSlug": "kotlin"
+    },
+    {
+      "code": "class Solution {\n    func minDistance(_ word1: String, _ word2: String) -> Int {\n        \n    }\n}",
+      "lang": "Swift",
+      "langSlug": "swift"
+    },
+    {
+      "code": "impl Solution {\n    pub fn min_distance(word1: String, word2: String) -> i32 {\n        \n    }\n}",
+      "lang": "Rust",
+      "langSlug": "rust"
+    },
+    {
+      "code": "# @param {String} word1\n# @param {String} word2\n# @return {Integer}\ndef min_distance(word1, word2)\n    \nend",
+      "lang": "Ruby",
+      "langSlug": "ruby"
+    },
+    {
+      "code": "class Solution {\n\n    /**\n     * @param String $word1\n     * @param String $word2\n     * @return Integer\n     */\n    function minDistance($word1, $word2) {\n        \n    }\n}",
+      "lang": "PHP",
+      "langSlug": "php"
+    },
+    {
+      "code": "class Solution {\n  int minDistance(String word1, String word2) {\n    \n  }\n}",
+      "lang": "Dart",
+      "langSlug": "dart"
+    },
+    {
+      "code": "object Solution {\n    def minDistance(word1: String, word2: String): Int = {\n        \n    }\n}",
+      "lang": "Scala",
+      "langSlug": "scala"
+    },
+    {
+      "code": "defmodule Solution do\n  @spec min_distance(word1 :: String.t, word2 :: String.t) :: integer\n  def min_distance(word1, word2) do\n    \n  end\nend",
+      "lang": "Elixir",
+      "langSlug": "elixir"
+    },
+    {
+      "code": "-spec min_distance(Word1 :: unicode:unicode_binary(), Word2 :: unicode:unicode_binary()) -> integer().\nmin_distance(Word1, Word2) ->\n  .",
+      "lang": "Erlang",
+      "langSlug": "erlang"
+    },
+    {
+      "code": "(define/contract (min-distance word1 word2)\n  (-> string? string? exact-integer?)\n  )",
+      "lang": "Racket",
+      "langSlug": "racket"
+    },
+    {
+      "code": "class Solution {\n    func minDistance(word1: String, word2: String): Int64 {\n\n    }\n}",
+      "lang": "Cangjie",
+      "langSlug": "cangjie"
+    }
+  ],
+  "similarQuestions": "[{\"title\": \"One Edit Distance\", \"titleSlug\": \"one-edit-distance\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u76f8\\u9694\\u4e3a 1 \\u7684\\u7f16\\u8f91\\u8ddd\\u79bb\", \"isPaidOnly\": true}, {\"title\": \"Delete Operation for Two Strings\", \"titleSlug\": \"delete-operation-for-two-strings\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u4e24\\u4e2a\\u5b57\\u7b26\\u4e32\\u7684\\u5220\\u9664\\u64cd\\u4f5c\", \"isPaidOnly\": false}, {\"title\": \"Minimum ASCII Delete Sum for Two Strings\", \"titleSlug\": \"minimum-ascii-delete-sum-for-two-strings\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u4e24\\u4e2a\\u5b57\\u7b26\\u4e32\\u7684\\u6700\\u5c0fASCII\\u5220\\u9664\\u548c\", \"isPaidOnly\": false}, {\"title\": \"Uncrossed Lines\", \"titleSlug\": \"uncrossed-lines\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u4e0d\\u76f8\\u4ea4\\u7684\\u7ebf\", \"isPaidOnly\": false}, {\"title\": \"Minimum White Tiles After Covering With Carpets\", \"titleSlug\": \"minimum-white-tiles-after-covering-with-carpets\", \"difficulty\": \"Hard\", \"translatedTitle\": \"\\u7528\\u5730\\u6bef\\u8986\\u76d6\\u540e\\u7684\\u6700\\u5c11\\u767d\\u8272\\u7816\\u5757\", \"isPaidOnly\": false}, {\"title\": \"Longest Palindrome After Substring Concatenation II\", \"titleSlug\": \"longest-palindrome-after-substring-concatenation-ii\", \"difficulty\": \"Hard\", \"translatedTitle\": \"\\u5b50\\u5b57\\u7b26\\u4e32\\u8fde\\u63a5\\u540e\\u7684\\u6700\\u957f\\u56de\\u6587\\u4e32 II\", \"isPaidOnly\": false}, {\"title\": \"Minimum Steps to Convert String with Operations\", \"titleSlug\": \"minimum-steps-to-convert-string-with-operations\", \"difficulty\": \"Hard\", \"translatedTitle\": \"\\u5b57\\u7b26\\u4e32\\u8f6c\\u6362\\u9700\\u8981\\u7684\\u6700\\u5c0f\\u64cd\\u4f5c\\u6570\", \"isPaidOnly\": false}]",
+  "stats": "{\"totalAccepted\": \"944.6K\", \"totalSubmission\": \"1.5M\", \"totalAcceptedRaw\": 944551, \"totalSubmissionRaw\": 1471801, \"acRate\": \"64.2%\"}",
+  "planGroup": "多维动态规划",
+  "planSlug": "top-100-liked-95-u30r"
+}

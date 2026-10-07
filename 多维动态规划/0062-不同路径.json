@@ -1,0 +1,136 @@
+{
+  "questionId": "62",
+  "questionFrontendId": "62",
+  "title": "Unique Paths",
+  "translatedTitle": "不同路径",
+  "titleSlug": "unique-paths",
+  "difficulty": "Medium",
+  "categoryTitle": "Algorithms",
+  "content": "<p>There is a robot on an <code>m x n</code> grid. The robot is initially located at the <strong>top-left corner</strong> (i.e., <code>grid[0][0]</code>). The robot tries to move to the <strong>bottom-right corner</strong> (i.e., <code>grid[m - 1][n - 1]</code>). The robot can only move either down or right at any point in time.</p>\n\n<p>Given the two integers <code>m</code> and <code>n</code>, return <em>the number of possible unique paths that the robot can take to reach the bottom-right corner</em>.</p>\n\n<p>The test cases are generated so that the answer will be less than or equal to <code>2 * 10<sup>9</sup></code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<img src=\"https://assets.leetcode.com/uploads/2018/10/22/robot_maze.png\" style=\"width: 400px; height: 183px;\" />\n<pre>\n<strong>Input:</strong> m = 3, n = 7\n<strong>Output:</strong> 28\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> m = 3, n = 2\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> From the top-left corner, there are a total of 3 ways to reach the bottom-right corner:\n1. Right -&gt; Down -&gt; Down\n2. Down -&gt; Down -&gt; Right\n3. Down -&gt; Right -&gt; Down\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= m, n &lt;= 100</code></li>\n</ul>\n",
+  "translatedContent": "<p>一个机器人位于一个 <code>m x n</code><em>&nbsp;</em>网格的左上角 （起始点在下图中标记为 “Start” ）。</p>\n\n<p>机器人每次只能向下或者向右移动一步。机器人试图达到网格的右下角（在下图中标记为 “Finish” ）。</p>\n\n<p>问总共有多少条不同的路径？</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n<img src=\"https://pic.leetcode.cn/1697422740-adxmsI-image.png\" style=\"width: 400px; height: 183px;\" />\n<pre>\n<strong>输入：</strong>m = 3, n = 7\n<strong>输出：</strong>28</pre>\n\n<p><strong>示例 2：</strong></p>\n\n<pre>\n<strong>输入：</strong>m = 3, n = 2\n<strong>输出：</strong>3\n<strong>解释：</strong>\n从左上角开始，总共有 3 条路径可以到达右下角。\n1. 向右 -&gt; 向下 -&gt; 向下\n2. 向下 -&gt; 向下 -&gt; 向右\n3. 向下 -&gt; 向右 -&gt; 向下\n</pre>\n\n<p><strong>示例 3：</strong></p>\n\n<pre>\n<strong>输入：</strong>m = 7, n = 3\n<strong>输出：</strong>28\n</pre>\n\n<p><strong>示例 4：</strong></p>\n\n<pre>\n<strong>输入：</strong>m = 3, n = 3\n<strong>输出：</strong>6</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= m, n &lt;= 100</code></li>\n\t<li>题目数据保证答案小于等于 <code>2 * 10<sup>9</sup></code></li>\n</ul>\n",
+  "topicTags": [
+    {
+      "name": "Math",
+      "slug": "math",
+      "translatedName": "数学"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming",
+      "translatedName": "动态规划"
+    },
+    {
+      "name": "Combinatorics",
+      "slug": "combinatorics",
+      "translatedName": "组合数学"
+    }
+  ],
+  "exampleTestcases": "3\n7\n3\n2",
+  "sampleTestCase": "3\n7",
+  "codeSnippets": [
+    {
+      "code": "class Solution {\npublic:\n    int uniquePaths(int m, int n) {\n        \n    }\n};",
+      "lang": "C++",
+      "langSlug": "cpp"
+    },
+    {
+      "code": "class Solution {\n    public int uniquePaths(int m, int n) {\n        \n    }\n}",
+      "lang": "Java",
+      "langSlug": "java"
+    },
+    {
+      "code": "class Solution:\n    def uniquePaths(self, m: int, n: int) -> int:\n        ",
+      "lang": "Python3",
+      "langSlug": "python3"
+    },
+    {
+      "code": "class Solution(object):\n    def uniquePaths(self, m, n):\n        \"\"\"\n        :type m: int\n        :type n: int\n        :rtype: int\n        \"\"\"\n        ",
+      "lang": "Python",
+      "langSlug": "python"
+    },
+    {
+      "code": "/**\n * @param {number} m\n * @param {number} n\n * @return {number}\n */\nvar uniquePaths = function(m, n) {\n    \n};",
+      "lang": "JavaScript",
+      "langSlug": "javascript"
+    },
+    {
+      "code": "function uniquePaths(m: number, n: number): number {\n    \n};",
+      "lang": "TypeScript",
+      "langSlug": "typescript"
+    },
+    {
+      "code": "public class Solution {\n    public int UniquePaths(int m, int n) {\n        \n    }\n}",
+      "lang": "C#",
+      "langSlug": "csharp"
+    },
+    {
+      "code": "int uniquePaths(int m, int n) {\n    \n}",
+      "lang": "C",
+      "langSlug": "c"
+    },
+    {
+      "code": "func uniquePaths(m int, n int) int {\n    \n}",
+      "lang": "Go",
+      "langSlug": "golang"
+    },
+    {
+      "code": "class Solution {\n    fun uniquePaths(m: Int, n: Int): Int {\n        \n    }\n}",
+      "lang": "Kotlin",
+      "langSlug": "kotlin"
+    },
+    {
+      "code": "class Solution {\n    func uniquePaths(_ m: Int, _ n: Int) -> Int {\n        \n    }\n}",
+      "lang": "Swift",
+      "langSlug": "swift"
+    },
+    {
+      "code": "impl Solution {\n    pub fn unique_paths(m: i32, n: i32) -> i32 {\n        \n    }\n}",
+      "lang": "Rust",
+      "langSlug": "rust"
+    },
+    {
+      "code": "# @param {Integer} m\n# @param {Integer} n\n# @return {Integer}\ndef unique_paths(m, n)\n    \nend",
+      "lang": "Ruby",
+      "langSlug": "ruby"
+    },
+    {
+      "code": "class Solution {\n\n    /**\n     * @param Integer $m\n     * @param Integer $n\n     * @return Integer\n     */\n    function uniquePaths($m, $n) {\n        \n    }\n}",
+      "lang": "PHP",
+      "langSlug": "php"
+    },
+    {
+      "code": "class Solution {\n  int uniquePaths(int m, int n) {\n    \n  }\n}",
+      "lang": "Dart",
+      "langSlug": "dart"
+    },
+    {
+      "code": "object Solution {\n    def uniquePaths(m: Int, n: Int): Int = {\n        \n    }\n}",
+      "lang": "Scala",
+      "langSlug": "scala"
+    },
+    {
+      "code": "defmodule Solution do\n  @spec unique_paths(m :: integer, n :: integer) :: integer\n  def unique_paths(m, n) do\n    \n  end\nend",
+      "lang": "Elixir",
+      "langSlug": "elixir"
+    },
+    {
+      "code": "-spec unique_paths(M :: integer(), N :: integer()) -> integer().\nunique_paths(M, N) ->\n  .",
+      "lang": "Erlang",
+      "langSlug": "erlang"
+    },
+    {
+      "code": "(define/contract (unique-paths m n)\n  (-> exact-integer? exact-integer? exact-integer?)\n  )",
+      "lang": "Racket",
+      "langSlug": "racket"
+    },
+    {
+      "code": "class Solution {\n    func uniquePaths(m: Int64, n: Int64): Int64 {\n\n    }\n}",
+      "lang": "Cangjie",
+      "langSlug": "cangjie"
+    }
+  ],
+  "similarQuestions": "[{\"title\": \"Unique Paths II\", \"titleSlug\": \"unique-paths-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u4e0d\\u540c\\u8def\\u5f84 II\", \"isPaidOnly\": false}, {\"title\": \"Minimum Path Sum\", \"titleSlug\": \"minimum-path-sum\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u6700\\u5c0f\\u8def\\u5f84\\u548c\", \"isPaidOnly\": false}, {\"title\": \"Dungeon Game\", \"titleSlug\": \"dungeon-game\", \"difficulty\": \"Hard\", \"translatedTitle\": \"\\u5730\\u4e0b\\u57ce\\u6e38\\u620f\", \"isPaidOnly\": false}, {\"title\": \"Minimum Path Cost in a Grid\", \"titleSlug\": \"minimum-path-cost-in-a-grid\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u7f51\\u683c\\u4e2d\\u7684\\u6700\\u5c0f\\u8def\\u5f84\\u4ee3\\u4ef7\", \"isPaidOnly\": false}, {\"title\": \"Minimum Cost Homecoming of a Robot in a Grid\", \"titleSlug\": \"minimum-cost-homecoming-of-a-robot-in-a-grid\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u7f51\\u683c\\u56fe\\u4e2d\\u673a\\u5668\\u4eba\\u56de\\u5bb6\\u7684\\u6700\\u5c0f\\u4ee3\\u4ef7\", \"isPaidOnly\": false}, {\"title\": \"Number of Ways to Reach a Position After Exactly k Steps\", \"titleSlug\": \"number-of-ways-to-reach-a-position-after-exactly-k-steps\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u6070\\u597d\\u79fb\\u52a8 k \\u6b65\\u5230\\u8fbe\\u67d0\\u4e00\\u4f4d\\u7f6e\\u7684\\u65b9\\u6cd5\\u6570\\u76ee\", \"isPaidOnly\": false}, {\"title\": \"Paths in Matrix Whose Sum Is Divisible by K\", \"titleSlug\": \"paths-in-matrix-whose-sum-is-divisible-by-k\", \"difficulty\": \"Hard\", \"translatedTitle\": \"\\u77e9\\u9635\\u4e2d\\u548c\\u80fd\\u88ab K \\u6574\\u9664\\u7684\\u8def\\u5f84\", \"isPaidOnly\": false}]",
+  "stats": "{\"totalAccepted\": \"1.3M\", \"totalSubmission\": \"1.8M\", \"totalAcceptedRaw\": 1290819, \"totalSubmissionRaw\": 1831084, \"acRate\": \"70.5%\"}",
+  "planGroup": "多维动态规划",
+  "planSlug": "top-100-liked-95-u30r"
+}

@@ -1,0 +1,131 @@
+{
+  "questionId": "238",
+  "questionFrontendId": "238",
+  "title": "Product of Array Except Self",
+  "translatedTitle": "除了自身以外数组的乘积",
+  "titleSlug": "product-of-array-except-self",
+  "difficulty": "Medium",
+  "categoryTitle": "Algorithms",
+  "content": "<p>Given an integer array <code>nums</code>, return <em>an array</em> <code>answer</code> <em>such that</em> <code>answer[i]</code> <em>is equal to the product of all the elements of</em> <code>nums</code> <em>except</em> <code>nums[i]</code>.</p>\n\n<p>The product of any prefix or suffix of <code>nums</code> is <strong>guaranteed</strong> to fit in a <strong>32-bit</strong> integer.</p>\n\n<p>You must write an algorithm that runs in&nbsp;<code>O(n)</code>&nbsp;time and without using the division operation.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> nums = [1,2,3,4]\n<strong>Output:</strong> [24,12,8,6]\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> nums = [-1,1,0,-3,3]\n<strong>Output:</strong> [0,0,9,0,0]\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-30 &lt;= nums[i] &lt;= 30</code></li>\n\t<li>The input is generated such that <code>answer[i]</code> is <strong>guaranteed</strong> to fit in a <strong>32-bit</strong> integer.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong>Follow up:</strong>&nbsp;Can you solve the problem in <code>O(1)</code>&nbsp;extra&nbsp;space complexity? (The output array <strong>does not</strong> count as extra space for space complexity analysis.)</p>\n",
+  "translatedContent": "<p>给你一个整数数组&nbsp;<code>nums</code>，返回 数组&nbsp;<code>answer</code>&nbsp;，其中&nbsp;<code>answer[i]</code>&nbsp;等于&nbsp;<code>nums</code>&nbsp;中除了&nbsp;<code>nums[i]</code>&nbsp;之外其余各元素的乘积&nbsp;。</p>\n\n<p>题目数据 <strong>保证</strong> 数组&nbsp;<code>nums</code>之中任意元素的全部前缀元素和后缀的乘积都在&nbsp; <strong>32 位</strong> 整数范围内。</p>\n\n<p>请&nbsp;<strong>不要使用除法，</strong>且在&nbsp;<code>O(n)</code> 时间复杂度内完成此题。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1:</strong></p>\n\n<pre>\n<strong>输入:</strong> nums = <code>[1,2,3,4]</code>\n<strong>输出:</strong> <code>[24,12,8,6]</code>\n</pre>\n\n<p><strong>示例 2:</strong></p>\n\n<pre>\n<strong>输入:</strong> nums = [-1,1,0,-3,3]\n<strong>输出:</strong> [0,0,9,0,0]\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-30 &lt;= nums[i] &lt;= 30</code></li>\n\t<li>输入&nbsp;<strong>保证</strong> 数组&nbsp;<code>answer[i]</code>&nbsp;在&nbsp; <strong>32 位</strong> 整数范围内</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><strong>进阶：</strong>你可以在 <code>O(1)</code>&nbsp;的额外空间复杂度内完成这个题目吗？（ 出于对空间复杂度分析的目的，输出数组&nbsp;<strong>不被视为&nbsp;</strong>额外空间。）</p>\n",
+  "topicTags": [
+    {
+      "name": "Array",
+      "slug": "array",
+      "translatedName": "数组"
+    },
+    {
+      "name": "Prefix Sum",
+      "slug": "prefix-sum",
+      "translatedName": "前缀和"
+    }
+  ],
+  "exampleTestcases": "[1,2,3,4]\n[-1,1,0,-3,3]",
+  "sampleTestCase": "[1,2,3,4]",
+  "codeSnippets": [
+    {
+      "code": "class Solution {\npublic:\n    vector<int> productExceptSelf(vector<int>& nums) {\n        \n    }\n};",
+      "lang": "C++",
+      "langSlug": "cpp"
+    },
+    {
+      "code": "class Solution {\n    public int[] productExceptSelf(int[] nums) {\n        \n    }\n}",
+      "lang": "Java",
+      "langSlug": "java"
+    },
+    {
+      "code": "class Solution:\n    def productExceptSelf(self, nums: List[int]) -> List[int]:\n        ",
+      "lang": "Python3",
+      "langSlug": "python3"
+    },
+    {
+      "code": "class Solution(object):\n    def productExceptSelf(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: List[int]\n        \"\"\"\n        ",
+      "lang": "Python",
+      "langSlug": "python"
+    },
+    {
+      "code": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar productExceptSelf = function(nums) {\n    \n};",
+      "lang": "JavaScript",
+      "langSlug": "javascript"
+    },
+    {
+      "code": "function productExceptSelf(nums: number[]): number[] {\n    \n};",
+      "lang": "TypeScript",
+      "langSlug": "typescript"
+    },
+    {
+      "code": "public class Solution {\n    public int[] ProductExceptSelf(int[] nums) {\n        \n    }\n}",
+      "lang": "C#",
+      "langSlug": "csharp"
+    },
+    {
+      "code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* productExceptSelf(int* nums, int numsSize, int* returnSize) {\n    \n}",
+      "lang": "C",
+      "langSlug": "c"
+    },
+    {
+      "code": "func productExceptSelf(nums []int) []int {\n    \n}",
+      "lang": "Go",
+      "langSlug": "golang"
+    },
+    {
+      "code": "class Solution {\n    fun productExceptSelf(nums: IntArray): IntArray {\n        \n    }\n}",
+      "lang": "Kotlin",
+      "langSlug": "kotlin"
+    },
+    {
+      "code": "class Solution {\n    func productExceptSelf(_ nums: [Int]) -> [Int] {\n        \n    }\n}",
+      "lang": "Swift",
+      "langSlug": "swift"
+    },
+    {
+      "code": "impl Solution {\n    pub fn product_except_self(nums: Vec<i32>) -> Vec<i32> {\n        \n    }\n}",
+      "lang": "Rust",
+      "langSlug": "rust"
+    },
+    {
+      "code": "# @param {Integer[]} nums\n# @return {Integer[]}\ndef product_except_self(nums)\n    \nend",
+      "lang": "Ruby",
+      "langSlug": "ruby"
+    },
+    {
+      "code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Integer[]\n     */\n    function productExceptSelf($nums) {\n        \n    }\n}",
+      "lang": "PHP",
+      "langSlug": "php"
+    },
+    {
+      "code": "class Solution {\n  List<int> productExceptSelf(List<int> nums) {\n    \n  }\n}",
+      "lang": "Dart",
+      "langSlug": "dart"
+    },
+    {
+      "code": "object Solution {\n    def productExceptSelf(nums: Array[Int]): Array[Int] = {\n        \n    }\n}",
+      "lang": "Scala",
+      "langSlug": "scala"
+    },
+    {
+      "code": "defmodule Solution do\n  @spec product_except_self(nums :: [integer]) :: [integer]\n  def product_except_self(nums) do\n    \n  end\nend",
+      "lang": "Elixir",
+      "langSlug": "elixir"
+    },
+    {
+      "code": "-spec product_except_self(Nums :: [integer()]) -> [integer()].\nproduct_except_self(Nums) ->\n  .",
+      "lang": "Erlang",
+      "langSlug": "erlang"
+    },
+    {
+      "code": "(define/contract (product-except-self nums)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )",
+      "lang": "Racket",
+      "langSlug": "racket"
+    },
+    {
+      "code": "class Solution {\n    func productExceptSelf(nums: Array<Int64>): Array<Int64> {\n\n    }\n}",
+      "lang": "Cangjie",
+      "langSlug": "cangjie"
+    }
+  ],
+  "similarQuestions": "[{\"title\": \"Trapping Rain Water\", \"titleSlug\": \"trapping-rain-water\", \"difficulty\": \"Hard\", \"translatedTitle\": \"\\u63a5\\u96e8\\u6c34\", \"isPaidOnly\": false}, {\"title\": \"Maximum Product Subarray\", \"titleSlug\": \"maximum-product-subarray\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u4e58\\u79ef\\u6700\\u5927\\u5b50\\u6570\\u7ec4\", \"isPaidOnly\": false}, {\"title\": \"Paint House II\", \"titleSlug\": \"paint-house-ii\", \"difficulty\": \"Hard\", \"translatedTitle\": \"\\u7c89\\u5237\\u623f\\u5b50 II\", \"isPaidOnly\": true}, {\"title\": \"Minimum Difference in Sums After Removal of Elements\", \"titleSlug\": \"minimum-difference-in-sums-after-removal-of-elements\", \"difficulty\": \"Hard\", \"translatedTitle\": \"\\u5220\\u9664\\u5143\\u7d20\\u540e\\u548c\\u7684\\u6700\\u5c0f\\u5dee\\u503c\", \"isPaidOnly\": false}, {\"title\": \"Construct Product Matrix\", \"titleSlug\": \"construct-product-matrix\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u6784\\u9020\\u4e58\\u79ef\\u77e9\\u9635\", \"isPaidOnly\": false}, {\"title\": \"Find Sum of Array Product of Magical Sequences\", \"titleSlug\": \"find-sum-of-array-product-of-magical-sequences\", \"difficulty\": \"Hard\", \"translatedTitle\": \"\\u9b54\\u6cd5\\u5e8f\\u5217\\u7684\\u6570\\u7ec4\\u4e58\\u79ef\\u4e4b\\u548c\", \"isPaidOnly\": false}]",
+  "stats": "{\"totalAccepted\": \"1.1M\", \"totalSubmission\": \"1.4M\", \"totalAcceptedRaw\": 1112869, \"totalSubmissionRaw\": 1433555, \"acRate\": \"77.6%\"}",
+  "planGroup": "普通数组",
+  "planSlug": "top-100-liked-84-4cqv"
+}

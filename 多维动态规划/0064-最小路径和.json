@@ -1,0 +1,136 @@
+{
+  "questionId": "64",
+  "questionFrontendId": "64",
+  "title": "Minimum Path Sum",
+  "translatedTitle": "最小路径和",
+  "titleSlug": "minimum-path-sum",
+  "difficulty": "Medium",
+  "categoryTitle": "Algorithms",
+  "content": "<p>Given a <code>m x n</code> <code>grid</code> filled with non-negative numbers, find a path from top left to bottom right, which minimizes the sum of all numbers along its path.</p>\n\n<p><strong>Note:</strong> You can only move either down or right at any point in time.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2020/11/05/minpath.jpg\" style=\"width: 242px; height: 242px;\" />\n<pre>\n<strong>Input:</strong> grid = [[1,3,1],[1,5,1],[4,2,1]]\n<strong>Output:</strong> 7\n<strong>Explanation:</strong> Because the path 1 &rarr; 3 &rarr; 1 &rarr; 1 &rarr; 1 minimizes the sum.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> grid = [[1,2,3],[4,5,6]]\n<strong>Output:</strong> 12\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>m == grid.length</code></li>\n\t<li><code>n == grid[i].length</code></li>\n\t<li><code>1 &lt;= m, n &lt;= 200</code></li>\n\t<li><code>0 &lt;= grid[i][j] &lt;= 200</code></li>\n</ul>\n",
+  "translatedContent": "<p>给定一个包含非负整数的 <code><em>m</em>&nbsp;x&nbsp;<em>n</em></code>&nbsp;网格&nbsp;<code>grid</code> ，请找出一条从左上角到右下角的路径，使得路径上的数字总和为最小。</p>\n\n<p><strong>说明：</strong>每次只能向下或者向右移动一步。</p>\n\n<p>&nbsp;</p>\n\n<p><strong class=\"example\">示例 1：</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2020/11/05/minpath.jpg\" style=\"width: 242px; height: 242px;\" />\n<pre>\n<strong>输入：</strong>grid = [[1,3,1],[1,5,1],[4,2,1]]\n<strong>输出：</strong>7\n<strong>解释：</strong>因为路径 1→3→1→1→1 的总和最小。\n</pre>\n\n<p><strong class=\"example\">示例 2：</strong></p>\n\n<pre>\n<strong>输入：</strong>grid = [[1,2,3],[4,5,6]]\n<strong>输出：</strong>12\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>m == grid.length</code></li>\n\t<li><code>n == grid[i].length</code></li>\n\t<li><code>1 &lt;= m, n &lt;= 200</code></li>\n\t<li><code>0 &lt;= grid[i][j] &lt;= 200</code></li>\n</ul>\n",
+  "topicTags": [
+    {
+      "name": "Array",
+      "slug": "array",
+      "translatedName": "数组"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming",
+      "translatedName": "动态规划"
+    },
+    {
+      "name": "Matrix",
+      "slug": "matrix",
+      "translatedName": "矩阵"
+    }
+  ],
+  "exampleTestcases": "[[1,3,1],[1,5,1],[4,2,1]]\n[[1,2,3],[4,5,6]]",
+  "sampleTestCase": "[[1,3,1],[1,5,1],[4,2,1]]",
+  "codeSnippets": [
+    {
+      "code": "class Solution {\npublic:\n    int minPathSum(vector<vector<int>>& grid) {\n        \n    }\n};",
+      "lang": "C++",
+      "langSlug": "cpp"
+    },
+    {
+      "code": "class Solution {\n    public int minPathSum(int[][] grid) {\n        \n    }\n}",
+      "lang": "Java",
+      "langSlug": "java"
+    },
+    {
+      "code": "class Solution:\n    def minPathSum(self, grid: list[list[int]]) -> int:\n        ",
+      "lang": "Python3",
+      "langSlug": "python3"
+    },
+    {
+      "code": "class Solution(object):\n    def minPathSum(self, grid):\n        \"\"\"\n        :type grid: List[List[int]]\n        :rtype: int\n        \"\"\"\n        ",
+      "lang": "Python",
+      "langSlug": "python"
+    },
+    {
+      "code": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar minPathSum = function(grid) {\n    \n};",
+      "lang": "JavaScript",
+      "langSlug": "javascript"
+    },
+    {
+      "code": "function minPathSum(grid: number[][]): number {\n    \n};",
+      "lang": "TypeScript",
+      "langSlug": "typescript"
+    },
+    {
+      "code": "public class Solution {\n    public int MinPathSum(int[][] grid) {\n        \n    }\n}",
+      "lang": "C#",
+      "langSlug": "csharp"
+    },
+    {
+      "code": "int minPathSum(int** grid, int gridSize, int* gridColSize) {\n    \n}",
+      "lang": "C",
+      "langSlug": "c"
+    },
+    {
+      "code": "func minPathSum(grid [][]int) int {\n    \n}",
+      "lang": "Go",
+      "langSlug": "golang"
+    },
+    {
+      "code": "class Solution {\n    fun minPathSum(grid: Array<IntArray>): Int {\n        \n    }\n}",
+      "lang": "Kotlin",
+      "langSlug": "kotlin"
+    },
+    {
+      "code": "class Solution {\n    func minPathSum(_ grid: [[Int]]) -> Int {\n        \n    }\n}",
+      "lang": "Swift",
+      "langSlug": "swift"
+    },
+    {
+      "code": "impl Solution {\n    pub fn min_path_sum(grid: Vec<Vec<i32>>) -> i32 {\n        \n    }\n}",
+      "lang": "Rust",
+      "langSlug": "rust"
+    },
+    {
+      "code": "# @param {Integer[][]} grid\n# @return {Integer}\ndef min_path_sum(grid)\n    \nend",
+      "lang": "Ruby",
+      "langSlug": "ruby"
+    },
+    {
+      "code": "class Solution {\n\n    /**\n     * @param Integer[][] $grid\n     * @return Integer\n     */\n    function minPathSum($grid) {\n        \n    }\n}",
+      "lang": "PHP",
+      "langSlug": "php"
+    },
+    {
+      "code": "class Solution {\n  int minPathSum(List<List<int>> grid) {\n    \n  }\n}",
+      "lang": "Dart",
+      "langSlug": "dart"
+    },
+    {
+      "code": "object Solution {\n    def minPathSum(grid: Array[Array[Int]]): Int = {\n        \n    }\n}",
+      "lang": "Scala",
+      "langSlug": "scala"
+    },
+    {
+      "code": "defmodule Solution do\n  @spec min_path_sum(grid :: [[integer]]) :: integer\n  def min_path_sum(grid) do\n    \n  end\nend",
+      "lang": "Elixir",
+      "langSlug": "elixir"
+    },
+    {
+      "code": "-spec min_path_sum(Grid :: [[integer()]]) -> integer().\nmin_path_sum(Grid) ->\n  .",
+      "lang": "Erlang",
+      "langSlug": "erlang"
+    },
+    {
+      "code": "(define/contract (min-path-sum grid)\n  (-> (listof (listof exact-integer?)) exact-integer?)\n  )",
+      "lang": "Racket",
+      "langSlug": "racket"
+    },
+    {
+      "code": "class Solution {\n    func minPathSum(grid: Array<Array<Int64>>): Int64 {\n\n    }\n}",
+      "lang": "Cangjie",
+      "langSlug": "cangjie"
+    }
+  ],
+  "similarQuestions": "[{\"title\": \"Unique Paths\", \"titleSlug\": \"unique-paths\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u4e0d\\u540c\\u8def\\u5f84\", \"isPaidOnly\": false}, {\"title\": \"Dungeon Game\", \"titleSlug\": \"dungeon-game\", \"difficulty\": \"Hard\", \"translatedTitle\": \"\\u5730\\u4e0b\\u57ce\\u6e38\\u620f\", \"isPaidOnly\": false}, {\"title\": \"Cherry Pickup\", \"titleSlug\": \"cherry-pickup\", \"difficulty\": \"Hard\", \"translatedTitle\": \"\\u6458\\u6a31\\u6843\", \"isPaidOnly\": false}, {\"title\": \"Minimum Path Cost in a Grid\", \"titleSlug\": \"minimum-path-cost-in-a-grid\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u7f51\\u683c\\u4e2d\\u7684\\u6700\\u5c0f\\u8def\\u5f84\\u4ee3\\u4ef7\", \"isPaidOnly\": false}, {\"title\": \"Maximum Number of Points with Cost\", \"titleSlug\": \"maximum-number-of-points-with-cost\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u6263\\u5206\\u540e\\u7684\\u6700\\u5927\\u5f97\\u5206\", \"isPaidOnly\": false}, {\"title\": \"Minimum Cost Homecoming of a Robot in a Grid\", \"titleSlug\": \"minimum-cost-homecoming-of-a-robot-in-a-grid\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u7f51\\u683c\\u56fe\\u4e2d\\u673a\\u5668\\u4eba\\u56de\\u5bb6\\u7684\\u6700\\u5c0f\\u4ee3\\u4ef7\", \"isPaidOnly\": false}, {\"title\": \"Paths in Matrix Whose Sum Is Divisible by K\", \"titleSlug\": \"paths-in-matrix-whose-sum-is-divisible-by-k\", \"difficulty\": \"Hard\", \"translatedTitle\": \"\\u77e9\\u9635\\u4e2d\\u548c\\u80fd\\u88ab K \\u6574\\u9664\\u7684\\u8def\\u5f84\", \"isPaidOnly\": false}, {\"title\": \"Check if There is a Path With Equal Number of 0's And 1's\", \"titleSlug\": \"check-if-there-is-a-path-with-equal-number-of-0s-and-1s\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u68c0\\u67e5\\u662f\\u5426\\u6709\\u8def\\u5f84\\u7ecf\\u8fc7\\u76f8\\u540c\\u6570\\u91cf\\u7684 0 \\u548c 1\", \"isPaidOnly\": true}, {\"title\": \"Minimum Cost of a Path With Special Roads\", \"titleSlug\": \"minimum-cost-of-a-path-with-special-roads\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u524d\\u5f80\\u76ee\\u6807\\u7684\\u6700\\u5c0f\\u4ee3\\u4ef7\", \"isPaidOnly\": false}]",
+  "stats": "{\"totalAccepted\": \"1M\", \"totalSubmission\": \"1.4M\", \"totalAcceptedRaw\": 1048134, \"totalSubmissionRaw\": 1445725, \"acRate\": \"72.5%\"}",
+  "planGroup": "多维动态规划",
+  "planSlug": "top-100-liked-95-u30r"
+}

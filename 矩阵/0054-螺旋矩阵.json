@@ -1,0 +1,136 @@
+{
+  "questionId": "54",
+  "questionFrontendId": "54",
+  "title": "Spiral Matrix",
+  "translatedTitle": "螺旋矩阵",
+  "titleSlug": "spiral-matrix",
+  "difficulty": "Medium",
+  "categoryTitle": "Algorithms",
+  "content": "<p>Given an <code>m x n</code> <code>matrix</code>, return <em>all elements of the</em> <code>matrix</code> <em>in spiral order</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2020/11/13/spiral1.jpg\" style=\"width: 242px; height: 242px;\" />\n<pre>\n<strong>Input:</strong> matrix = [[1,2,3],[4,5,6],[7,8,9]]\n<strong>Output:</strong> [1,2,3,6,9,8,7,4,5]\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2020/11/13/spiral.jpg\" style=\"width: 322px; height: 242px;\" />\n<pre>\n<strong>Input:</strong> matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]\n<strong>Output:</strong> [1,2,3,4,8,12,11,10,9,5,6,7]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>m == matrix.length</code></li>\n\t<li><code>n == matrix[i].length</code></li>\n\t<li><code>1 &lt;= m, n &lt;= 10</code></li>\n\t<li><code>-100 &lt;= matrix[i][j] &lt;= 100</code></li>\n</ul>\n",
+  "translatedContent": "<p>给你一个 <code>m</code> 行 <code>n</code> 列的矩阵 <code>matrix</code> ，请按照 <strong>顺时针螺旋顺序</strong> ，返回矩阵中的所有元素。</p>\n\n<p> </p>\n\n<p><strong>示例 1：</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2020/11/13/spiral1.jpg\" style=\"width: 242px; height: 242px;\" />\n<pre>\n<strong>输入：</strong>matrix = [[1,2,3],[4,5,6],[7,8,9]]\n<strong>输出：</strong>[1,2,3,6,9,8,7,4,5]\n</pre>\n\n<p><strong>示例 2：</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2020/11/13/spiral.jpg\" style=\"width: 322px; height: 242px;\" />\n<pre>\n<strong>输入：</strong>matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]\n<strong>输出：</strong>[1,2,3,4,8,12,11,10,9,5,6,7]\n</pre>\n\n<p> </p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>m == matrix.length</code></li>\n\t<li><code>n == matrix[i].length</code></li>\n\t<li><code>1 <= m, n <= 10</code></li>\n\t<li><code>-100 <= matrix[i][j] <= 100</code></li>\n</ul>\n",
+  "topicTags": [
+    {
+      "name": "Array",
+      "slug": "array",
+      "translatedName": "数组"
+    },
+    {
+      "name": "Matrix",
+      "slug": "matrix",
+      "translatedName": "矩阵"
+    },
+    {
+      "name": "Simulation",
+      "slug": "simulation",
+      "translatedName": "模拟"
+    }
+  ],
+  "exampleTestcases": "[[1,2,3],[4,5,6],[7,8,9]]\n[[1,2,3,4],[5,6,7,8],[9,10,11,12]]",
+  "sampleTestCase": "[[1,2,3],[4,5,6],[7,8,9]]",
+  "codeSnippets": [
+    {
+      "code": "class Solution {\npublic:\n    vector<int> spiralOrder(vector<vector<int>>& matrix) {\n        \n    }\n};",
+      "lang": "C++",
+      "langSlug": "cpp"
+    },
+    {
+      "code": "class Solution {\n    public List<Integer> spiralOrder(int[][] matrix) {\n        \n    }\n}",
+      "lang": "Java",
+      "langSlug": "java"
+    },
+    {
+      "code": "class Solution:\n    def spiralOrder(self, matrix: list[list[int]]) -> list[int]:\n        ",
+      "lang": "Python3",
+      "langSlug": "python3"
+    },
+    {
+      "code": "class Solution(object):\n    def spiralOrder(self, matrix):\n        \"\"\"\n        :type matrix: List[List[int]]\n        :rtype: List[int]\n        \"\"\"\n        ",
+      "lang": "Python",
+      "langSlug": "python"
+    },
+    {
+      "code": "/**\n * @param {number[][]} matrix\n * @return {number[]}\n */\nvar spiralOrder = function(matrix) {\n    \n};",
+      "lang": "JavaScript",
+      "langSlug": "javascript"
+    },
+    {
+      "code": "function spiralOrder(matrix: number[][]): number[] {\n    \n};",
+      "lang": "TypeScript",
+      "langSlug": "typescript"
+    },
+    {
+      "code": "public class Solution {\n    public IList<int> SpiralOrder(int[][] matrix) {\n        \n    }\n}",
+      "lang": "C#",
+      "langSlug": "csharp"
+    },
+    {
+      "code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* spiralOrder(int** matrix, int matrixSize, int* matrixColSize, int* returnSize) {\n    \n}",
+      "lang": "C",
+      "langSlug": "c"
+    },
+    {
+      "code": "func spiralOrder(matrix [][]int) []int {\n    \n}",
+      "lang": "Go",
+      "langSlug": "golang"
+    },
+    {
+      "code": "class Solution {\n    fun spiralOrder(matrix: Array<IntArray>): List<Int> {\n        \n    }\n}",
+      "lang": "Kotlin",
+      "langSlug": "kotlin"
+    },
+    {
+      "code": "class Solution {\n    func spiralOrder(_ matrix: [[Int]]) -> [Int] {\n        \n    }\n}",
+      "lang": "Swift",
+      "langSlug": "swift"
+    },
+    {
+      "code": "impl Solution {\n    pub fn spiral_order(matrix: Vec<Vec<i32>>) -> Vec<i32> {\n        \n    }\n}",
+      "lang": "Rust",
+      "langSlug": "rust"
+    },
+    {
+      "code": "# @param {Integer[][]} matrix\n# @return {Integer[]}\ndef spiral_order(matrix)\n    \nend",
+      "lang": "Ruby",
+      "langSlug": "ruby"
+    },
+    {
+      "code": "class Solution {\n\n    /**\n     * @param Integer[][] $matrix\n     * @return Integer[]\n     */\n    function spiralOrder($matrix) {\n        \n    }\n}",
+      "lang": "PHP",
+      "langSlug": "php"
+    },
+    {
+      "code": "class Solution {\n  List<int> spiralOrder(List<List<int>> matrix) {\n    \n  }\n}",
+      "lang": "Dart",
+      "langSlug": "dart"
+    },
+    {
+      "code": "object Solution {\n    def spiralOrder(matrix: Array[Array[Int]]): List[Int] = {\n        \n    }\n}",
+      "lang": "Scala",
+      "langSlug": "scala"
+    },
+    {
+      "code": "defmodule Solution do\n  @spec spiral_order(matrix :: [[integer]]) :: [integer]\n  def spiral_order(matrix) do\n    \n  end\nend",
+      "lang": "Elixir",
+      "langSlug": "elixir"
+    },
+    {
+      "code": "-spec spiral_order(Matrix :: [[integer()]]) -> [integer()].\nspiral_order(Matrix) ->\n  .",
+      "lang": "Erlang",
+      "langSlug": "erlang"
+    },
+    {
+      "code": "(define/contract (spiral-order matrix)\n  (-> (listof (listof exact-integer?)) (listof exact-integer?))\n  )",
+      "lang": "Racket",
+      "langSlug": "racket"
+    },
+    {
+      "code": "class Solution {\n    func spiralOrder(matrix: Array<Array<Int64>>): ArrayList<Int64> {\n\n    }\n}",
+      "lang": "Cangjie",
+      "langSlug": "cangjie"
+    }
+  ],
+  "similarQuestions": "[{\"title\": \"Spiral Matrix II\", \"titleSlug\": \"spiral-matrix-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u87ba\\u65cb\\u77e9\\u9635 II\", \"isPaidOnly\": false}, {\"title\": \"Spiral Matrix III\", \"titleSlug\": \"spiral-matrix-iii\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u87ba\\u65cb\\u77e9\\u9635 III\", \"isPaidOnly\": false}, {\"title\": \"Spiral Matrix IV\", \"titleSlug\": \"spiral-matrix-iv\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u87ba\\u65cb\\u77e9\\u9635 IV\", \"isPaidOnly\": false}]",
+  "stats": "{\"totalAccepted\": \"1.1M\", \"totalSubmission\": \"2M\", \"totalAcceptedRaw\": 1097411, \"totalSubmissionRaw\": 1969316, \"acRate\": \"55.7%\"}",
+  "planGroup": "矩阵",
+  "planSlug": "top-100-liked-85-8wlm"
+}

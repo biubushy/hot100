@@ -1,0 +1,121 @@
+{
+  "questionId": "189",
+  "questionFrontendId": "189",
+  "title": "Rotate Array",
+  "translatedTitle": "轮转数组",
+  "titleSlug": "rotate-array",
+  "difficulty": "Medium",
+  "categoryTitle": "Algorithms",
+  "content": "<p>Given an integer array <code>nums</code>, rotate the array to the right by <code>k</code> steps, where <code>k</code> is non-negative.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,2,3,4,5,6,7], k = 3\n<strong>Output:</strong> [5,6,7,1,2,3,4]\n<strong>Explanation:</strong>\nrotate 1 steps to the right: [7,1,2,3,4,5,6]\nrotate 2 steps to the right: [6,7,1,2,3,4,5]\nrotate 3 steps to the right: [5,6,7,1,2,3,4]\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [-1,-100,3,99], k = 2\n<strong>Output:</strong> [3,99,-1,-100]\n<strong>Explanation:</strong> \nrotate 1 steps to the right: [99,-1,-100,3]\nrotate 2 steps to the right: [3,99,-1,-100]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-2<sup>31</sup> &lt;= nums[i] &lt;= 2<sup>31</sup> - 1</code></li>\n\t<li><code>0 &lt;= k &lt;= 10<sup>5</sup></code></li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong>Follow up:</strong></p>\n\n<ul>\n\t<li>Try to come up with as many solutions as you can. There are at least <strong>three</strong> different ways to solve this problem.</li>\n\t<li>Could you do it in-place with <code>O(1)</code> extra space?</li>\n</ul>\n",
+  "translatedContent": "<p>给定一个整数数组 <code>nums</code>，将数组中的元素向右轮转 <code>k</code><em>&nbsp;</em>个位置，其中&nbsp;<code>k</code><em>&nbsp;</em>是非负数。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1:</strong></p>\n\n<pre>\n<strong>输入:</strong> nums = [1,2,3,4,5,6,7], k = 3\n<strong>输出:</strong> <code>[5,6,7,1,2,3,4]</code>\n<strong>解释:</strong>\n向右轮转 1 步: <code>[7,1,2,3,4,5,6]</code>\n向右轮转 2 步: <code>[6,7,1,2,3,4,5]\n</code>向右轮转 3 步: <code>[5,6,7,1,2,3,4]</code>\n</pre>\n\n<p><strong>示例&nbsp;2:</strong></p>\n\n<pre>\n<strong>输入：</strong>nums = [-1,-100,3,99], k = 2\n<strong>输出：</strong>[3,99,-1,-100]\n<strong>解释:</strong> \n向右轮转 1 步: [99,-1,-100,3]\n向右轮转 2 步: [3,99,-1,-100]</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-2<sup>31</sup> &lt;= nums[i] &lt;= 2<sup>31</sup> - 1</code></li>\n\t<li><code>0 &lt;= k &lt;= 10<sup>5</sup></code></li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><strong>进阶：</strong></p>\n\n<ul>\n\t<li>尽可能想出更多的解决方案，至少有 <strong>三种</strong> 不同的方法可以解决这个问题。</li>\n\t<li>你可以使用空间复杂度为&nbsp;<code>O(1)</code> 的&nbsp;<strong>原地&nbsp;</strong>算法解决这个问题吗？</li>\n</ul>\n",
+  "topicTags": [
+    {
+      "name": "Array",
+      "slug": "array",
+      "translatedName": "数组"
+    },
+    {
+      "name": "Math",
+      "slug": "math",
+      "translatedName": "数学"
+    },
+    {
+      "name": "Two Pointers",
+      "slug": "two-pointers",
+      "translatedName": "双指针"
+    }
+  ],
+  "exampleTestcases": "[1,2,3,4,5,6,7]\n3\n[-1,-100,3,99]\n2",
+  "sampleTestCase": "[1,2,3,4,5,6,7]\n3",
+  "codeSnippets": [
+    {
+      "code": "class Solution {\npublic:\n    void rotate(vector<int>& nums, int k) {\n        \n    }\n};",
+      "lang": "C++",
+      "langSlug": "cpp"
+    },
+    {
+      "code": "class Solution {\n    public void rotate(int[] nums, int k) {\n        \n    }\n}",
+      "lang": "Java",
+      "langSlug": "java"
+    },
+    {
+      "code": "class Solution:\n    def rotate(self, nums: list[int], k: int) -> None:\n        \"\"\"\n        Do not return anything, modify nums in-place instead.\n        \"\"\"\n        ",
+      "lang": "Python3",
+      "langSlug": "python3"
+    },
+    {
+      "code": "class Solution(object):\n    def rotate(self, nums, k):\n        \"\"\"\n        :type nums: List[int]\n        :type k: int\n        :rtype: None Do not return anything, modify nums in-place instead.\n        \"\"\"\n        ",
+      "lang": "Python",
+      "langSlug": "python"
+    },
+    {
+      "code": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {void} Do not return anything, modify nums in-place instead.\n */\nvar rotate = function(nums, k) {\n    \n};",
+      "lang": "JavaScript",
+      "langSlug": "javascript"
+    },
+    {
+      "code": "/**\n Do not return anything, modify nums in-place instead.\n */\nfunction rotate(nums: number[], k: number): void {\n    \n};",
+      "lang": "TypeScript",
+      "langSlug": "typescript"
+    },
+    {
+      "code": "public class Solution {\n    public void Rotate(int[] nums, int k) {\n        \n    }\n}",
+      "lang": "C#",
+      "langSlug": "csharp"
+    },
+    {
+      "code": "void rotate(int* nums, int numsSize, int k) {\n    \n}",
+      "lang": "C",
+      "langSlug": "c"
+    },
+    {
+      "code": "func rotate(nums []int, k int)  {\n    \n}",
+      "lang": "Go",
+      "langSlug": "golang"
+    },
+    {
+      "code": "class Solution {\n    fun rotate(nums: IntArray, k: Int): Unit {\n        \n    }\n}",
+      "lang": "Kotlin",
+      "langSlug": "kotlin"
+    },
+    {
+      "code": "class Solution {\n    func rotate(_ nums: inout [Int], _ k: Int) {\n        \n    }\n}",
+      "lang": "Swift",
+      "langSlug": "swift"
+    },
+    {
+      "code": "impl Solution {\n    pub fn rotate(nums: &mut Vec<i32>, k: i32) {\n        \n    }\n}",
+      "lang": "Rust",
+      "langSlug": "rust"
+    },
+    {
+      "code": "# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Void} Do not return anything, modify nums in-place instead.\ndef rotate(nums, k)\n    \nend",
+      "lang": "Ruby",
+      "langSlug": "ruby"
+    },
+    {
+      "code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $k\n     * @return NULL\n     */\n    function rotate(&$nums, $k) {\n        \n    }\n}",
+      "lang": "PHP",
+      "langSlug": "php"
+    },
+    {
+      "code": "class Solution {\n  void rotate(List<int> nums, int k) {\n    \n  }\n}",
+      "lang": "Dart",
+      "langSlug": "dart"
+    },
+    {
+      "code": "object Solution {\n    def rotate(nums: Array[Int], k: Int): Unit = {\n        \n    }\n}",
+      "lang": "Scala",
+      "langSlug": "scala"
+    },
+    {
+      "code": "class Solution {\n    func rotate(nums: Array<Int64>, k: Int64): Unit {\n\n    }\n}",
+      "lang": "Cangjie",
+      "langSlug": "cangjie"
+    }
+  ],
+  "similarQuestions": "[{\"title\": \"Rotate List\", \"titleSlug\": \"rotate-list\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u65cb\\u8f6c\\u94fe\\u8868\", \"isPaidOnly\": false}, {\"title\": \"Reverse Words in a String II\", \"titleSlug\": \"reverse-words-in-a-string-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u53cd\\u8f6c\\u5b57\\u7b26\\u4e32\\u4e2d\\u7684\\u5355\\u8bcd II\", \"isPaidOnly\": true}, {\"title\": \"Make K-Subarray Sums Equal\", \"titleSlug\": \"make-k-subarray-sums-equal\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u4f7f\\u5b50\\u6570\\u7ec4\\u5143\\u7d20\\u548c\\u76f8\\u7b49\", \"isPaidOnly\": false}, {\"title\": \"Maximum Number of Matching Indices After Right Shifts\", \"titleSlug\": \"maximum-number-of-matching-indices-after-right-shifts\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u53f3\\u79fb\\u540e\\u7684\\u6700\\u5927\\u5339\\u914d\\u7d22\\u5f15\\u6570\", \"isPaidOnly\": true}]",
+  "stats": "{\"totalAccepted\": \"1.6M\", \"totalSubmission\": \"3.3M\", \"totalAcceptedRaw\": 1628130, \"totalSubmissionRaw\": 3343097, \"acRate\": \"48.7%\"}",
+  "planGroup": "普通数组",
+  "planSlug": "top-100-liked-84-4cqv"
+}

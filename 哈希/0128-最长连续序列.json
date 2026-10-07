@@ -1,0 +1,136 @@
+{
+  "questionId": "128",
+  "questionFrontendId": "128",
+  "title": "Longest Consecutive Sequence",
+  "translatedTitle": "最长连续序列",
+  "titleSlug": "longest-consecutive-sequence",
+  "difficulty": "Medium",
+  "categoryTitle": "Algorithms",
+  "content": "<p>Given an unsorted array of integers <code>nums</code>, return <em>the length of the longest consecutive elements sequence.</em></p>\n\n<p>You must write an algorithm that runs in&nbsp;<code>O(n)</code>&nbsp;time.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [100,4,200,1,3,2]\n<strong>Output:</strong> 4\n<strong>Explanation:</strong> The longest consecutive elements sequence is <code>[1, 2, 3, 4]</code>. Therefore its length is 4.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [0,3,7,2,5,8,4,6,0,1]\n<strong>Output:</strong> 9\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,0,1,2]\n<strong>Output:</strong> 3\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>\n</ul>\n",
+  "translatedContent": "<p>给定一个未排序的整数数组 <code>nums</code> ，找出数字连续的最长序列（不要求序列元素在原数组中连续）的长度。</p>\n\n<p>请你设计并实现时间复杂度为&nbsp;<code>O(n)</code><em> </em>的算法解决此问题。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre>\n<strong>输入：</strong>nums = [100,4,200,1,3,2]\n<strong>输出：</strong>4\n<strong>解释：</strong>最长数字连续序列是 [1, 2, 3, 4]。它的长度为 4。</pre>\n\n<p><strong>示例 2：</strong></p>\n\n<pre>\n<strong>输入：</strong>nums = [0,3,7,2,5,8,4,6,0,1]\n<strong>输出：</strong>9\n</pre>\n\n<p><strong class=\"example\">示例 3：</strong></p>\n\n<pre>\n<strong>输入：</strong>nums = [1,0,1,2]\n<b>输出：</b>3\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>\n</ul>\n",
+  "topicTags": [
+    {
+      "name": "Union Find",
+      "slug": "union-find",
+      "translatedName": "并查集"
+    },
+    {
+      "name": "Array",
+      "slug": "array",
+      "translatedName": "数组"
+    },
+    {
+      "name": "Hash Table",
+      "slug": "hash-table",
+      "translatedName": "哈希表"
+    }
+  ],
+  "exampleTestcases": "[100,4,200,1,3,2]\n[0,3,7,2,5,8,4,6,0,1]\n[1,0,1,2]",
+  "sampleTestCase": "[100,4,200,1,3,2]",
+  "codeSnippets": [
+    {
+      "code": "class Solution {\npublic:\n    int longestConsecutive(vector<int>& nums) {\n        \n    }\n};",
+      "lang": "C++",
+      "langSlug": "cpp"
+    },
+    {
+      "code": "class Solution {\n    public int longestConsecutive(int[] nums) {\n        \n    }\n}",
+      "lang": "Java",
+      "langSlug": "java"
+    },
+    {
+      "code": "class Solution:\n    def longestConsecutive(self, nums: list[int]) -> int:\n        ",
+      "lang": "Python3",
+      "langSlug": "python3"
+    },
+    {
+      "code": "class Solution(object):\n    def longestConsecutive(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: int\n        \"\"\"\n        ",
+      "lang": "Python",
+      "langSlug": "python"
+    },
+    {
+      "code": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar longestConsecutive = function(nums) {\n    \n};",
+      "lang": "JavaScript",
+      "langSlug": "javascript"
+    },
+    {
+      "code": "function longestConsecutive(nums: number[]): number {\n    \n};",
+      "lang": "TypeScript",
+      "langSlug": "typescript"
+    },
+    {
+      "code": "public class Solution {\n    public int LongestConsecutive(int[] nums) {\n        \n    }\n}",
+      "lang": "C#",
+      "langSlug": "csharp"
+    },
+    {
+      "code": "int longestConsecutive(int* nums, int numsSize) {\n    \n}",
+      "lang": "C",
+      "langSlug": "c"
+    },
+    {
+      "code": "func longestConsecutive(nums []int) int {\n    \n}",
+      "lang": "Go",
+      "langSlug": "golang"
+    },
+    {
+      "code": "class Solution {\n    fun longestConsecutive(nums: IntArray): Int {\n        \n    }\n}",
+      "lang": "Kotlin",
+      "langSlug": "kotlin"
+    },
+    {
+      "code": "class Solution {\n    func longestConsecutive(_ nums: [Int]) -> Int {\n        \n    }\n}",
+      "lang": "Swift",
+      "langSlug": "swift"
+    },
+    {
+      "code": "impl Solution {\n    pub fn longest_consecutive(nums: Vec<i32>) -> i32 {\n        \n    }\n}",
+      "lang": "Rust",
+      "langSlug": "rust"
+    },
+    {
+      "code": "# @param {Integer[]} nums\n# @return {Integer}\ndef longest_consecutive(nums)\n    \nend",
+      "lang": "Ruby",
+      "langSlug": "ruby"
+    },
+    {
+      "code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Integer\n     */\n    function longestConsecutive($nums) {\n        \n    }\n}",
+      "lang": "PHP",
+      "langSlug": "php"
+    },
+    {
+      "code": "class Solution {\n  int longestConsecutive(List<int> nums) {\n    \n  }\n}",
+      "lang": "Dart",
+      "langSlug": "dart"
+    },
+    {
+      "code": "object Solution {\n    def longestConsecutive(nums: Array[Int]): Int = {\n        \n    }\n}",
+      "lang": "Scala",
+      "langSlug": "scala"
+    },
+    {
+      "code": "defmodule Solution do\n  @spec longest_consecutive(nums :: [integer]) :: integer\n  def longest_consecutive(nums) do\n    \n  end\nend",
+      "lang": "Elixir",
+      "langSlug": "elixir"
+    },
+    {
+      "code": "-spec longest_consecutive(Nums :: [integer()]) -> integer().\nlongest_consecutive(Nums) ->\n  .",
+      "lang": "Erlang",
+      "langSlug": "erlang"
+    },
+    {
+      "code": "(define/contract (longest-consecutive nums)\n  (-> (listof exact-integer?) exact-integer?)\n  )",
+      "lang": "Racket",
+      "langSlug": "racket"
+    },
+    {
+      "code": "class Solution {\n    func longestConsecutive(nums: Array<Int64>): Int64 {\n\n    }\n}",
+      "lang": "Cangjie",
+      "langSlug": "cangjie"
+    }
+  ],
+  "similarQuestions": "[{\"title\": \"Binary Tree Longest Consecutive Sequence\", \"titleSlug\": \"binary-tree-longest-consecutive-sequence\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u4e8c\\u53c9\\u6811\\u6700\\u957f\\u8fde\\u7eed\\u5e8f\\u5217\", \"isPaidOnly\": true}, {\"title\": \"Find Three Consecutive Integers That Sum to a Given Number\", \"titleSlug\": \"find-three-consecutive-integers-that-sum-to-a-given-number\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u627e\\u5230\\u548c\\u4e3a\\u7ed9\\u5b9a\\u6574\\u6570\\u7684\\u4e09\\u4e2a\\u8fde\\u7eed\\u6574\\u6570\", \"isPaidOnly\": false}, {\"title\": \"Maximum Consecutive Floors Without Special Floors\", \"titleSlug\": \"maximum-consecutive-floors-without-special-floors\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u4e0d\\u542b\\u7279\\u6b8a\\u697c\\u5c42\\u7684\\u6700\\u5927\\u8fde\\u7eed\\u697c\\u5c42\\u6570\", \"isPaidOnly\": false}, {\"title\": \"Length of the Longest Alphabetical Continuous Substring\", \"titleSlug\": \"length-of-the-longest-alphabetical-continuous-substring\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u6700\\u957f\\u7684\\u5b57\\u6bcd\\u5e8f\\u8fde\\u7eed\\u5b50\\u5b57\\u7b26\\u4e32\\u7684\\u957f\\u5ea6\", \"isPaidOnly\": false}, {\"title\": \"Find the Maximum Number of Elements in Subset\", \"titleSlug\": \"find-the-maximum-number-of-elements-in-subset\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u5b50\\u96c6\\u4e2d\\u5143\\u7d20\\u7684\\u6700\\u5927\\u6570\\u91cf\", \"isPaidOnly\": false}]",
+  "stats": "{\"totalAccepted\": \"1.8M\", \"totalSubmission\": \"3.6M\", \"totalAcceptedRaw\": 1757453, \"totalSubmissionRaw\": 3611911, \"acRate\": \"48.7%\"}",
+  "planGroup": "哈希",
+  "planSlug": "top-100-liked-80-r32o"
+}

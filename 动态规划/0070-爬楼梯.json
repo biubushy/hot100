@@ -1,0 +1,136 @@
+{
+  "questionId": "70",
+  "questionFrontendId": "70",
+  "title": "Climbing Stairs",
+  "translatedTitle": "爬楼梯",
+  "titleSlug": "climbing-stairs",
+  "difficulty": "Easy",
+  "categoryTitle": "Algorithms",
+  "content": "<p>You are climbing a staircase. It takes <code>n</code> steps to reach the top.</p>\n\n<p>Each time you can either climb <code>1</code> or <code>2</code> steps. In how many distinct ways can you climb to the top?</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 2\n<strong>Output:</strong> 2\n<strong>Explanation:</strong> There are two ways to climb to the top.\n1. 1 step + 1 step\n2. 2 steps\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> n = 3\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> There are three ways to climb to the top.\n1. 1 step + 1 step + 1 step\n2. 1 step + 2 steps\n3. 2 steps + 1 step\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n &lt;= 45</code></li>\n</ul>\n",
+  "translatedContent": "<p>假设你正在爬楼梯。需要 <code>n</code>&nbsp;阶你才能到达楼顶。</p>\n\n<p>每次你可以爬 <code>1</code> 或 <code>2</code> 个台阶。你有多少种不同的方法可以爬到楼顶呢？</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre>\n<strong>输入：</strong>n = 2\n<strong>输出：</strong>2\n<strong>解释：</strong>有两种方法可以爬到楼顶。\n1. 1 阶 + 1 阶\n2. 2 阶</pre>\n\n<p><strong>示例 2：</strong></p>\n\n<pre>\n<strong>输入：</strong>n = 3\n<strong>输出：</strong>3\n<strong>解释：</strong>有三种方法可以爬到楼顶。\n1. 1 阶 + 1 阶 + 1 阶\n2. 1 阶 + 2 阶\n3. 2 阶 + 1 阶\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n &lt;= 45</code></li>\n</ul>\n",
+  "topicTags": [
+    {
+      "name": "Memoization",
+      "slug": "memoization",
+      "translatedName": "记忆化"
+    },
+    {
+      "name": "Math",
+      "slug": "math",
+      "translatedName": "数学"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming",
+      "translatedName": "动态规划"
+    }
+  ],
+  "exampleTestcases": "2\n3",
+  "sampleTestCase": "2",
+  "codeSnippets": [
+    {
+      "code": "class Solution {\npublic:\n    int climbStairs(int n) {\n        \n    }\n};",
+      "lang": "C++",
+      "langSlug": "cpp"
+    },
+    {
+      "code": "class Solution {\n    public int climbStairs(int n) {\n        \n    }\n}",
+      "lang": "Java",
+      "langSlug": "java"
+    },
+    {
+      "code": "class Solution:\n    def climbStairs(self, n: int) -> int:\n        ",
+      "lang": "Python3",
+      "langSlug": "python3"
+    },
+    {
+      "code": "class Solution(object):\n    def climbStairs(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: int\n        \"\"\"\n        ",
+      "lang": "Python",
+      "langSlug": "python"
+    },
+    {
+      "code": "/**\n * @param {number} n\n * @return {number}\n */\nvar climbStairs = function(n) {\n    \n};",
+      "lang": "JavaScript",
+      "langSlug": "javascript"
+    },
+    {
+      "code": "function climbStairs(n: number): number {\n    \n};",
+      "lang": "TypeScript",
+      "langSlug": "typescript"
+    },
+    {
+      "code": "public class Solution {\n    public int ClimbStairs(int n) {\n        \n    }\n}",
+      "lang": "C#",
+      "langSlug": "csharp"
+    },
+    {
+      "code": "int climbStairs(int n) {\n    \n}",
+      "lang": "C",
+      "langSlug": "c"
+    },
+    {
+      "code": "func climbStairs(n int) int {\n    \n}",
+      "lang": "Go",
+      "langSlug": "golang"
+    },
+    {
+      "code": "class Solution {\n    fun climbStairs(n: Int): Int {\n        \n    }\n}",
+      "lang": "Kotlin",
+      "langSlug": "kotlin"
+    },
+    {
+      "code": "class Solution {\n    func climbStairs(_ n: Int) -> Int {\n        \n    }\n}",
+      "lang": "Swift",
+      "langSlug": "swift"
+    },
+    {
+      "code": "impl Solution {\n    pub fn climb_stairs(n: i32) -> i32 {\n        \n    }\n}",
+      "lang": "Rust",
+      "langSlug": "rust"
+    },
+    {
+      "code": "# @param {Integer} n\n# @return {Integer}\ndef climb_stairs(n)\n    \nend",
+      "lang": "Ruby",
+      "langSlug": "ruby"
+    },
+    {
+      "code": "class Solution {\n\n    /**\n     * @param Integer $n\n     * @return Integer\n     */\n    function climbStairs($n) {\n        \n    }\n}",
+      "lang": "PHP",
+      "langSlug": "php"
+    },
+    {
+      "code": "class Solution {\n  int climbStairs(int n) {\n    \n  }\n}",
+      "lang": "Dart",
+      "langSlug": "dart"
+    },
+    {
+      "code": "object Solution {\n    def climbStairs(n: Int): Int = {\n        \n    }\n}",
+      "lang": "Scala",
+      "langSlug": "scala"
+    },
+    {
+      "code": "defmodule Solution do\n  @spec climb_stairs(n :: integer) :: integer\n  def climb_stairs(n) do\n    \n  end\nend",
+      "lang": "Elixir",
+      "langSlug": "elixir"
+    },
+    {
+      "code": "-spec climb_stairs(N :: integer()) -> integer().\nclimb_stairs(N) ->\n  .",
+      "lang": "Erlang",
+      "langSlug": "erlang"
+    },
+    {
+      "code": "(define/contract (climb-stairs n)\n  (-> exact-integer? exact-integer?)\n  )",
+      "lang": "Racket",
+      "langSlug": "racket"
+    },
+    {
+      "code": "class Solution {\n    func climbStairs(n: Int64): Int64 {\n\n    }\n}",
+      "lang": "Cangjie",
+      "langSlug": "cangjie"
+    }
+  ],
+  "similarQuestions": "[{\"title\": \"Min Cost Climbing Stairs\", \"titleSlug\": \"min-cost-climbing-stairs\", \"difficulty\": \"Easy\", \"translatedTitle\": \"\\u4f7f\\u7528\\u6700\\u5c0f\\u82b1\\u8d39\\u722c\\u697c\\u68af\", \"isPaidOnly\": false}, {\"title\": \"Fibonacci Number\", \"titleSlug\": \"fibonacci-number\", \"difficulty\": \"Easy\", \"translatedTitle\": \"\\u6590\\u6ce2\\u90a3\\u5951\\u6570\", \"isPaidOnly\": false}, {\"title\": \"N-th Tribonacci Number\", \"titleSlug\": \"n-th-tribonacci-number\", \"difficulty\": \"Easy\", \"translatedTitle\": \"\\u7b2c N \\u4e2a\\u6cf0\\u6ce2\\u90a3\\u5951\\u6570\", \"isPaidOnly\": false}, {\"title\": \"Minimum Rounds to Complete All Tasks\", \"titleSlug\": \"minimum-rounds-to-complete-all-tasks\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u5b8c\\u6210\\u6240\\u6709\\u4efb\\u52a1\\u9700\\u8981\\u7684\\u6700\\u5c11\\u8f6e\\u6570\", \"isPaidOnly\": false}, {\"title\": \"Count Number of Ways to Place Houses\", \"titleSlug\": \"count-number-of-ways-to-place-houses\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u7edf\\u8ba1\\u653e\\u7f6e\\u623f\\u5b50\\u7684\\u65b9\\u5f0f\\u6570\", \"isPaidOnly\": false}, {\"title\": \"Number of Ways to Reach a Position After Exactly k Steps\", \"titleSlug\": \"number-of-ways-to-reach-a-position-after-exactly-k-steps\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u6070\\u597d\\u79fb\\u52a8 k \\u6b65\\u5230\\u8fbe\\u67d0\\u4e00\\u4f4d\\u7f6e\\u7684\\u65b9\\u6cd5\\u6570\\u76ee\", \"isPaidOnly\": false}, {\"title\": \"Count Ways To Build Good Strings\", \"titleSlug\": \"count-ways-to-build-good-strings\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u7edf\\u8ba1\\u6784\\u9020\\u597d\\u5b57\\u7b26\\u4e32\\u7684\\u65b9\\u6848\\u6570\", \"isPaidOnly\": false}, {\"title\": \"Frog Jump II\", \"titleSlug\": \"frog-jump-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u9752\\u86d9\\u8fc7\\u6cb3 II\", \"isPaidOnly\": false}, {\"title\": \"Find Number of Ways to Reach the K-th Stair\", \"titleSlug\": \"find-number-of-ways-to-reach-the-k-th-stair\", \"difficulty\": \"Hard\", \"translatedTitle\": \"\\u5230\\u8fbe\\u7b2c K \\u7ea7\\u53f0\\u9636\\u7684\\u65b9\\u6848\\u6570\", \"isPaidOnly\": false}, {\"title\": \"The Number of Ways to Make the Sum\", \"titleSlug\": \"the-number-of-ways-to-make-the-sum\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u8fbe\\u5230\\u603b\\u548c\\u7684\\u65b9\\u6cd5\\u6570\\u91cf\", \"isPaidOnly\": true}]",
+  "stats": "{\"totalAccepted\": \"2.3M\", \"totalSubmission\": \"4.2M\", \"totalAcceptedRaw\": 2321464, \"totalSubmissionRaw\": 4154099, \"acRate\": \"55.9%\"}",
+  "planGroup": "动态规划",
+  "planSlug": "top-100-liked-94-c8ic"
+}

@@ -1,0 +1,136 @@
+{
+  "questionId": "3",
+  "questionFrontendId": "3",
+  "title": "Longest Substring Without Repeating Characters",
+  "translatedTitle": "无重复字符的最长子串",
+  "titleSlug": "longest-substring-without-repeating-characters",
+  "difficulty": "Medium",
+  "categoryTitle": "Algorithms",
+  "content": "<p>Given a string <code>s</code>, find the length of the <strong>longest</strong> <span data-keyword=\"substring-nonempty\"><strong>substring</strong></span> without duplicate characters.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;abcabcbb&quot;\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> The answer is &quot;abc&quot;, with the length of 3. Note that <code>&quot;bca&quot;</code> and <code>&quot;cab&quot;</code> are also correct answers.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;bbbbb&quot;\n<strong>Output:</strong> 1\n<strong>Explanation:</strong> The answer is &quot;b&quot;, with the length of 1.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;pwwkew&quot;\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> The answer is &quot;wke&quot;, with the length of 3.\nNotice that the answer must be a substring, &quot;pwke&quot; is a subsequence and not a substring.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= s.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>s</code> consists of English letters, digits, symbols and spaces.</li>\n</ul>\n",
+  "translatedContent": "<p>给定一个字符串 <code>s</code> ，请你找出其中不含有重复字符的&nbsp;<strong>最长 <span data-keyword=\"substring-nonempty\">子串</span></strong><strong>&nbsp;</strong>的长度。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例&nbsp;1:</strong></p>\n\n<pre>\n<strong>输入: </strong>s = \"abcabcbb\"\n<strong>输出: </strong>3 \n<strong>解释:</strong> 因为无重复字符的最长子串是 <code>\"abc\"</code>，所以其长度为 3。注意 \"bca\" 和 \"cab\" 也是正确答案。\n</pre>\n\n<p><strong>示例 2:</strong></p>\n\n<pre>\n<strong>输入: </strong>s = \"bbbbb\"\n<strong>输出: </strong>1\n<strong>解释: </strong>因为无重复字符的最长子串是 <code>\"b\"</code>，所以其长度为 1。\n</pre>\n\n<p><strong>示例 3:</strong></p>\n\n<pre>\n<strong>输入: </strong>s = \"pwwkew\"\n<strong>输出: </strong>3\n<strong>解释: </strong>因为无重复字符的最长子串是&nbsp;<code>\"wke\"</code>，所以其长度为 3。\n&nbsp;    请注意，你的答案必须是 <strong>子串 </strong>的长度，<code>\"pwke\"</code>&nbsp;是一个<em>子序列，</em>不是子串。\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= s.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>s</code>&nbsp;由英文字母、数字、符号和空格组成</li>\n</ul>\n",
+  "topicTags": [
+    {
+      "name": "Hash Table",
+      "slug": "hash-table",
+      "translatedName": "哈希表"
+    },
+    {
+      "name": "String",
+      "slug": "string",
+      "translatedName": "字符串"
+    },
+    {
+      "name": "Sliding Window",
+      "slug": "sliding-window",
+      "translatedName": "滑动窗口"
+    }
+  ],
+  "exampleTestcases": "\"abcabcbb\"\n\"bbbbb\"\n\"pwwkew\"",
+  "sampleTestCase": "\"abcabcbb\"",
+  "codeSnippets": [
+    {
+      "code": "class Solution {\npublic:\n    int lengthOfLongestSubstring(string s) {\n        \n    }\n};",
+      "lang": "C++",
+      "langSlug": "cpp"
+    },
+    {
+      "code": "class Solution {\n    public int lengthOfLongestSubstring(String s) {\n        \n    }\n}",
+      "lang": "Java",
+      "langSlug": "java"
+    },
+    {
+      "code": "class Solution:\n    def lengthOfLongestSubstring(self, s: str) -> int:\n        ",
+      "lang": "Python3",
+      "langSlug": "python3"
+    },
+    {
+      "code": "class Solution(object):\n    def lengthOfLongestSubstring(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: int\n        \"\"\"\n        ",
+      "lang": "Python",
+      "langSlug": "python"
+    },
+    {
+      "code": "/**\n * @param {string} s\n * @return {number}\n */\nvar lengthOfLongestSubstring = function(s) {\n    \n};",
+      "lang": "JavaScript",
+      "langSlug": "javascript"
+    },
+    {
+      "code": "function lengthOfLongestSubstring(s: string): number {\n    \n};",
+      "lang": "TypeScript",
+      "langSlug": "typescript"
+    },
+    {
+      "code": "public class Solution {\n    public int LengthOfLongestSubstring(string s) {\n        \n    }\n}",
+      "lang": "C#",
+      "langSlug": "csharp"
+    },
+    {
+      "code": "int lengthOfLongestSubstring(char* s) {\n    \n}",
+      "lang": "C",
+      "langSlug": "c"
+    },
+    {
+      "code": "func lengthOfLongestSubstring(s string) int {\n    \n}",
+      "lang": "Go",
+      "langSlug": "golang"
+    },
+    {
+      "code": "class Solution {\n    fun lengthOfLongestSubstring(s: String): Int {\n        \n    }\n}",
+      "lang": "Kotlin",
+      "langSlug": "kotlin"
+    },
+    {
+      "code": "class Solution {\n    func lengthOfLongestSubstring(_ s: String) -> Int {\n        \n    }\n}",
+      "lang": "Swift",
+      "langSlug": "swift"
+    },
+    {
+      "code": "impl Solution {\n    pub fn length_of_longest_substring(s: String) -> i32 {\n        \n    }\n}",
+      "lang": "Rust",
+      "langSlug": "rust"
+    },
+    {
+      "code": "# @param {String} s\n# @return {Integer}\ndef length_of_longest_substring(s)\n    \nend",
+      "lang": "Ruby",
+      "langSlug": "ruby"
+    },
+    {
+      "code": "class Solution {\n\n    /**\n     * @param String $s\n     * @return Integer\n     */\n    function lengthOfLongestSubstring($s) {\n        \n    }\n}",
+      "lang": "PHP",
+      "langSlug": "php"
+    },
+    {
+      "code": "class Solution {\n  int lengthOfLongestSubstring(String s) {\n    \n  }\n}",
+      "lang": "Dart",
+      "langSlug": "dart"
+    },
+    {
+      "code": "object Solution {\n    def lengthOfLongestSubstring(s: String): Int = {\n        \n    }\n}",
+      "lang": "Scala",
+      "langSlug": "scala"
+    },
+    {
+      "code": "defmodule Solution do\n  @spec length_of_longest_substring(s :: String.t) :: integer\n  def length_of_longest_substring(s) do\n    \n  end\nend",
+      "lang": "Elixir",
+      "langSlug": "elixir"
+    },
+    {
+      "code": "-spec length_of_longest_substring(S :: unicode:unicode_binary()) -> integer().\nlength_of_longest_substring(S) ->\n  .",
+      "lang": "Erlang",
+      "langSlug": "erlang"
+    },
+    {
+      "code": "(define/contract (length-of-longest-substring s)\n  (-> string? exact-integer?)\n  )",
+      "lang": "Racket",
+      "langSlug": "racket"
+    },
+    {
+      "code": "class Solution {\n    func lengthOfLongestSubstring(s: String): Int64 {\n\n    }\n}",
+      "lang": "Cangjie",
+      "langSlug": "cangjie"
+    }
+  ],
+  "similarQuestions": "[{\"title\": \"Longest Substring with At Most Two Distinct Characters\", \"titleSlug\": \"longest-substring-with-at-most-two-distinct-characters\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u81f3\\u591a\\u5305\\u542b\\u4e24\\u4e2a\\u4e0d\\u540c\\u5b57\\u7b26\\u7684\\u6700\\u957f\\u5b50\\u4e32\", \"isPaidOnly\": true}, {\"title\": \"Longest Substring with At Most K Distinct Characters\", \"titleSlug\": \"longest-substring-with-at-most-k-distinct-characters\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u81f3\\u591a\\u5305\\u542b K \\u4e2a\\u4e0d\\u540c\\u5b57\\u7b26\\u7684\\u6700\\u957f\\u5b50\\u4e32\", \"isPaidOnly\": true}, {\"title\": \"Subarrays with K Different Integers\", \"titleSlug\": \"subarrays-with-k-different-integers\", \"difficulty\": \"Hard\", \"translatedTitle\": \"K \\u4e2a\\u4e0d\\u540c\\u6574\\u6570\\u7684\\u5b50\\u6570\\u7ec4\", \"isPaidOnly\": false}, {\"title\": \"Maximum Erasure Value\", \"titleSlug\": \"maximum-erasure-value\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u5220\\u9664\\u5b50\\u6570\\u7ec4\\u7684\\u6700\\u5927\\u5f97\\u5206\", \"isPaidOnly\": false}, {\"title\": \"Number of Equal Count Substrings\", \"titleSlug\": \"number-of-equal-count-substrings\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u7b49\\u8ba1\\u6570\\u5b50\\u4e32\\u7684\\u6570\\u91cf\", \"isPaidOnly\": true}, {\"title\": \"Minimum Consecutive Cards to Pick Up\", \"titleSlug\": \"minimum-consecutive-cards-to-pick-up\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u5fc5\\u987b\\u62ff\\u8d77\\u7684\\u6700\\u5c0f\\u8fde\\u7eed\\u5361\\u724c\\u6570\", \"isPaidOnly\": false}, {\"title\": \"Longest Nice Subarray\", \"titleSlug\": \"longest-nice-subarray\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u6700\\u957f\\u4f18\\u96c5\\u5b50\\u6570\\u7ec4\", \"isPaidOnly\": false}, {\"title\": \"Optimal Partition of String\", \"titleSlug\": \"optimal-partition-of-string\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u5b50\\u5b57\\u7b26\\u4e32\\u7684\\u6700\\u4f18\\u5212\\u5206\", \"isPaidOnly\": false}, {\"title\": \"Count Complete Subarrays in an Array\", \"titleSlug\": \"count-complete-subarrays-in-an-array\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u7edf\\u8ba1\\u5b8c\\u5168\\u5b50\\u6570\\u7ec4\\u7684\\u6570\\u76ee\", \"isPaidOnly\": false}, {\"title\": \"Find Longest Special Substring That Occurs Thrice II\", \"titleSlug\": \"find-longest-special-substring-that-occurs-thrice-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u627e\\u51fa\\u51fa\\u73b0\\u81f3\\u5c11\\u4e09\\u6b21\\u7684\\u6700\\u957f\\u7279\\u6b8a\\u5b50\\u5b57\\u7b26\\u4e32 II\", \"isPaidOnly\": false}, {\"title\": \"Find Longest Special Substring That Occurs Thrice I\", \"titleSlug\": \"find-longest-special-substring-that-occurs-thrice-i\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u627e\\u51fa\\u51fa\\u73b0\\u81f3\\u5c11\\u4e09\\u6b21\\u7684\\u6700\\u957f\\u7279\\u6b8a\\u5b50\\u5b57\\u7b26\\u4e32 I\", \"isPaidOnly\": false}]",
+  "stats": "{\"totalAccepted\": \"4.5M\", \"totalSubmission\": \"10.4M\", \"totalAcceptedRaw\": 4487345, \"totalSubmissionRaw\": 10442231, \"acRate\": \"43.0%\"}",
+  "planGroup": "滑动窗口",
+  "planSlug": "top-100-liked-82-i464"
+}

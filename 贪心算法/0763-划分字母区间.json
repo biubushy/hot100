@@ -1,0 +1,141 @@
+{
+  "questionId": "768",
+  "questionFrontendId": "763",
+  "title": "Partition Labels",
+  "translatedTitle": "划分字母区间",
+  "titleSlug": "partition-labels",
+  "difficulty": "Medium",
+  "categoryTitle": "Algorithms",
+  "content": "<p>You are given a string <code>s</code>. We want to partition the string into as many parts as possible so that each letter appears in at most one part. For example, the string <code>&quot;ababcc&quot;</code> can be partitioned into <code>[&quot;abab&quot;, &quot;cc&quot;]</code>, but partitions such as <code>[&quot;aba&quot;, &quot;bcc&quot;]</code> or <code>[&quot;ab&quot;, &quot;ab&quot;, &quot;cc&quot;]</code> are invalid.</p>\n\n<p>Note that the partition is done so that after concatenating all the parts in order, the resultant string should be <code>s</code>.</p>\n\n<p>Return <em>a list of integers representing the size of these parts</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;ababcbacadefegdehijhklij&quot;\n<strong>Output:</strong> [9,7,8]\n<strong>Explanation:</strong>\nThe partition is &quot;ababcbaca&quot;, &quot;defegde&quot;, &quot;hijhklij&quot;.\nThis is a partition so that each letter appears in at most one part.\nA partition like &quot;ababcbacadefegde&quot;, &quot;hijhklij&quot; is incorrect, because it splits s into less parts.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;eccbbbbdec&quot;\n<strong>Output:</strong> [10]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 500</code></li>\n\t<li><code>s</code> consists of lowercase English letters.</li>\n</ul>\n",
+  "translatedContent": "<p>给你一个字符串 <code>s</code> 。我们要把这个字符串划分为尽可能多的片段，同一字母最多出现在一个片段中。例如，字符串&nbsp;<code>\"ababcc\"</code> 能够被分为 <code>[\"abab\", \"cc\"]</code>，但类似&nbsp;<code>[\"aba\", \"bcc\"]</code> 或&nbsp;<code>[\"ab\", \"ab\", \"cc\"]</code> 的划分是非法的。</p>\n\n<p>注意，划分结果需要满足：将所有划分结果按顺序连接，得到的字符串仍然是 <code>s</code> 。</p>\n\n<p>返回一个表示每个字符串片段的长度的列表。</p>\n\n<p>&nbsp;</p>\n<strong class=\"example\">示例 1：</strong>\n\n<pre>\n<strong>输入：</strong>s = \"ababcbacadefegdehijhklij\"\n<strong>输出：</strong>[9,7,8]\n<strong>解释：</strong>\n划分结果为 \"ababcbaca\"、\"defegde\"、\"hijhklij\" 。\n每个字母最多出现在一个片段中。\n像 \"ababcbacadefegde\", \"hijhklij\" 这样的划分是错误的，因为划分的片段数较少。 </pre>\n\n<p><strong class=\"example\">示例 2：</strong></p>\n\n<pre>\n<strong>输入：</strong>s = \"eccbbbbdec\"\n<strong>输出：</strong>[10]\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 500</code></li>\n\t<li><code>s</code> 仅由小写英文字母组成</li>\n</ul>\n",
+  "topicTags": [
+    {
+      "name": "Greedy",
+      "slug": "greedy",
+      "translatedName": "贪心"
+    },
+    {
+      "name": "Hash Table",
+      "slug": "hash-table",
+      "translatedName": "哈希表"
+    },
+    {
+      "name": "Two Pointers",
+      "slug": "two-pointers",
+      "translatedName": "双指针"
+    },
+    {
+      "name": "String",
+      "slug": "string",
+      "translatedName": "字符串"
+    }
+  ],
+  "exampleTestcases": "\"ababcbacadefegdehijhklij\"\n\"eccbbbbdec\"",
+  "sampleTestCase": "\"ababcbacadefegdehijhklij\"",
+  "codeSnippets": [
+    {
+      "code": "class Solution {\npublic:\n    vector<int> partitionLabels(string s) {\n        \n    }\n};",
+      "lang": "C++",
+      "langSlug": "cpp"
+    },
+    {
+      "code": "class Solution {\n    public List<Integer> partitionLabels(String s) {\n        \n    }\n}",
+      "lang": "Java",
+      "langSlug": "java"
+    },
+    {
+      "code": "class Solution:\n    def partitionLabels(self, s: str) -> list[int]:\n        ",
+      "lang": "Python3",
+      "langSlug": "python3"
+    },
+    {
+      "code": "class Solution(object):\n    def partitionLabels(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: List[int]\n        \"\"\"\n        ",
+      "lang": "Python",
+      "langSlug": "python"
+    },
+    {
+      "code": "/**\n * @param {string} s\n * @return {number[]}\n */\nvar partitionLabels = function(s) {\n    \n};",
+      "lang": "JavaScript",
+      "langSlug": "javascript"
+    },
+    {
+      "code": "function partitionLabels(s: string): number[] {\n    \n};",
+      "lang": "TypeScript",
+      "langSlug": "typescript"
+    },
+    {
+      "code": "public class Solution {\n    public IList<int> PartitionLabels(string s) {\n        \n    }\n}",
+      "lang": "C#",
+      "langSlug": "csharp"
+    },
+    {
+      "code": "/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* partitionLabels(char* s, int* returnSize) {\n    \n}",
+      "lang": "C",
+      "langSlug": "c"
+    },
+    {
+      "code": "func partitionLabels(s string) []int {\n    \n}",
+      "lang": "Go",
+      "langSlug": "golang"
+    },
+    {
+      "code": "class Solution {\n    fun partitionLabels(s: String): List<Int> {\n        \n    }\n}",
+      "lang": "Kotlin",
+      "langSlug": "kotlin"
+    },
+    {
+      "code": "class Solution {\n    func partitionLabels(_ s: String) -> [Int] {\n        \n    }\n}",
+      "lang": "Swift",
+      "langSlug": "swift"
+    },
+    {
+      "code": "impl Solution {\n    pub fn partition_labels(s: String) -> Vec<i32> {\n        \n    }\n}",
+      "lang": "Rust",
+      "langSlug": "rust"
+    },
+    {
+      "code": "# @param {String} s\n# @return {Integer[]}\ndef partition_labels(s)\n    \nend",
+      "lang": "Ruby",
+      "langSlug": "ruby"
+    },
+    {
+      "code": "class Solution {\n\n    /**\n     * @param String $s\n     * @return Integer[]\n     */\n    function partitionLabels($s) {\n        \n    }\n}",
+      "lang": "PHP",
+      "langSlug": "php"
+    },
+    {
+      "code": "class Solution {\n  List<int> partitionLabels(String s) {\n    \n  }\n}",
+      "lang": "Dart",
+      "langSlug": "dart"
+    },
+    {
+      "code": "object Solution {\n    def partitionLabels(s: String): List[Int] = {\n        \n    }\n}",
+      "lang": "Scala",
+      "langSlug": "scala"
+    },
+    {
+      "code": "defmodule Solution do\n  @spec partition_labels(s :: String.t) :: [integer]\n  def partition_labels(s) do\n    \n  end\nend",
+      "lang": "Elixir",
+      "langSlug": "elixir"
+    },
+    {
+      "code": "-spec partition_labels(S :: unicode:unicode_binary()) -> [integer()].\npartition_labels(S) ->\n  .",
+      "lang": "Erlang",
+      "langSlug": "erlang"
+    },
+    {
+      "code": "(define/contract (partition-labels s)\n  (-> string? (listof exact-integer?))\n  )",
+      "lang": "Racket",
+      "langSlug": "racket"
+    },
+    {
+      "code": "class Solution {\n    func partitionLabels(s: String): ArrayList<Int64> {\n\n    }\n}",
+      "lang": "Cangjie",
+      "langSlug": "cangjie"
+    }
+  ],
+  "similarQuestions": "[{\"title\": \"Merge Intervals\", \"titleSlug\": \"merge-intervals\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u5408\\u5e76\\u533a\\u95f4\", \"isPaidOnly\": false}, {\"title\": \"Optimal Partition of String\", \"titleSlug\": \"optimal-partition-of-string\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u5b50\\u5b57\\u7b26\\u4e32\\u7684\\u6700\\u4f18\\u5212\\u5206\", \"isPaidOnly\": false}]",
+  "stats": "{\"totalAccepted\": \"566.9K\", \"totalSubmission\": \"717.6K\", \"totalAcceptedRaw\": 566880, \"totalSubmissionRaw\": 717591, \"acRate\": \"79.0%\"}",
+  "planGroup": "贪心算法",
+  "planSlug": "top-100-liked-93-mcze"
+}
